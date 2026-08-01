@@ -2,7 +2,7 @@
 layout: page
 permalink: /experience/
 title: Experience
-description: Academic positions, research roles, and education.
+description: Academic positions, research roles, Ph.D. supervision, and education.
 nav: true
 nav_order: 5
 ---
@@ -25,6 +25,14 @@ Faculty in the Department of CSE. Published 20+ papers, supervised thesis projec
 *Hyderabad, India · 2015 – 2020*
 
 Doctoral research on IoT security, complex event processing, and ML for intrusion detection under Dr. Chittaranjan Hota.
+
+## Ph.D. Supervision
+
+{% for student in site.data.students.phd_students %}
+**{{ student.name }}** ({{ student.period }})  
+{% if student.status == "completed" %}Completed{% else %}Ongoing{% endif %} — {{ student.affiliation }}
+
+{% endfor %}
 
 ## Education
 
