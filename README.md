@@ -114,6 +114,26 @@ Journal entries show indexing / quartile / IF in the right column; conference en
 
 Course materials are hidden until a visitor verifies a `@manipal.edu` email address (see `_includes/teaching-materials.liquid`).
 
+### Google Scholar auto-sync
+
+Citation metrics and per-paper citation counts are synced automatically by [`.github/workflows/sync-google-scholar.yml`](.github/workflows/sync-google-scholar.yml) every Monday (and on demand).
+
+| File | Purpose |
+|------|---------|
+| `scripts/sync_google_scholar.py` | Fetches profile metrics and publication citations |
+| `scripts/scholar_sync_config.yml` | Scholar user ID, ORCID, match threshold |
+| `_data/scholar_publications.yml` | Cached publication list with citation counts |
+| `_data/scholar_pending.yml` | Publications not yet matched to `papers.bib` |
+
+**Recommended:** add a [SerpAPI](https://serpapi.com/) key as the GitHub secret `SERPAPI_API_KEY` for reliable **Google Scholar** access in CI. Without it, the workflow falls back to **OpenAlex** via your ORCID (close, but not identical to Scholar).
+
+Manual run:
+
+```bash
+pip install -r scripts/requirements-scholar.txt
+SERPAPI_API_KEY=your_key python scripts/sync_google_scholar.py
+```
+
 ### Administration (`_data/admin.yml`)
 
 Sections: `current_roles`, `past_roles`, `leadership_roles`, `academic_service`. The Administration page renders this file automatically.

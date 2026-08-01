@@ -1,0 +1,16 @@
+# Google Scholar sync configuration
+# Used by scripts/sync_google_scholar.py and .github/workflows/sync-google-scholar.yml
+
+scholar_userid: LkngaM4AAAAJ
+orcid_id: "0000-0002-3193-8160"
+active_since: 2017
+
+# Minimum title similarity (0-100) to match a Scholar entry to papers.bib
+title_match_threshold: 88
+
+# Paths (relative to repository root)
+paths:
+  research_areas: _data/research_areas.yml
+  scholar_publications: _data/scholar_publications.yml
+  scholar_pending: _data/scholar_pending.yml
+  bibliography: _bibliography/papers.bib

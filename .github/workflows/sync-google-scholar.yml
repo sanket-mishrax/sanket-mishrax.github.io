@@ -1,0 +1,42 @@
+name: Sync Google Scholar
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements-scholar.txt
+
+      - name: Sync Scholar metrics and publications
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: python scripts/sync_google_scholar.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No Scholar data changes to commit."
+            exit 0
+          fi
+          git add _data/research_areas.yml _data/scholar_publications.yml _data/scholar_pending.yml _bibliography/papers.bib
+          git commit -m "Auto-sync Google Scholar metrics and publication citations"
+          git push

@@ -38,7 +38,7 @@
     <em>
       Citation metrics from
       <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}&hl=en">{{ stats.metrics_source }}</a>
-      (updated {{ stats.metrics_updated }}).
+      (updated {{ stats.metrics_updated }}){% if stats.last_synced_at %}; last auto-sync {{ stats.last_synced_at }}{% endif %}.
     </em>
   </p>
 </div>
