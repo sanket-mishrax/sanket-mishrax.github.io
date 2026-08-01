@@ -1,0 +1,61 @@
+# Teaching materials — upload files to assets/materials/ and reference them here.
+#
+# How to add a material:
+#   1. Place your PDF, slides (.pptx/.pdf), notes, or code in assets/materials/
+#   2. Add an entry below with title, course, type, and file path
+#   3. Set placeholder: false when the file is ready to publish
+#
+# Supported types: slides, notes, assignment, lab, video, syllabus, code, other
+
+- id: "ml-intro-slides"
+  title: "Lecture 1 — Introduction to Machine Learning"
+  course: "CSE501 — Machine Learning"
+  type: "slides"
+  file: "/assets/materials/placeholder-ml-intro.pdf"
+  description: >-
+    [Placeholder] Upload your lecture slides to assets/materials/ and update the file path above.
+    Rename this entry or delete it once you add real content.
+  semester: "Monsoon 2025"
+  placeholder: true
+
+- id: "ml-assignment-01"
+  title: "Assignment 1 — Supervised Learning Basics"
+  course: "CSE501 — Machine Learning"
+  type: "assignment"
+  file: "/assets/materials/placeholder-assignment.pdf"
+  description: >-
+    [Placeholder] Problem set covering regression, classification, and model evaluation metrics.
+  semester: "Monsoon 2025"
+  placeholder: true
+
+- id: "iot-lab-manual"
+  title: "Lab Manual — IoT Security Experiments"
+  course: "CSE402 — Internet of Things & Security"
+  type: "lab"
+  file: "/assets/materials/placeholder-iot-lab.pdf"
+  description: >-
+    [Placeholder] Hands-on labs for packet sniffing, anomaly detection, and lightweight ML on edge devices.
+  semester: "Monsoon 2025"
+  placeholder: true
+
+- id: "dl-notes"
+  title: "Deep Learning — Lecture Notes (Full Semester)"
+  course: "CSE405 — Deep Learning"
+  type: "notes"
+  file: "/assets/materials/placeholder-dl-notes.pdf"
+  description: >-
+    [Placeholder] Comprehensive lecture notes. Upload PDF to assets/materials/ and set placeholder: false.
+  semester: "Winter 2023"
+  placeholder: true
+
+- id: "example-video"
+  title: "[Add Material Title]"
+  course: "[Course Code — Course Name]"
+  type: "video"
+  file: ""  # use url for external links (YouTube, Google Drive, etc.)
+  url: "https://example.com/your-lecture-video"
+  description: >-
+    [Placeholder] Copy this entry to add new materials. Use file for uploaded assets
+    or url for external hosting. Set placeholder: false when ready.
+  semester: "[Semester Year]"
+  placeholder: true

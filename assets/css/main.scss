@@ -28,7 +28,29 @@
 .publication-meta {
   font-size: 0.9em;
   color: #555;
-  margin: 0;
+  margin: 0 0 0.5em 0;
+}
+
+.publication-summary {
+  font-size: 0.9em;
+  color: #444;
+  line-height: 1.6;
+  padding: 0.8em 1em;
+  background: #f8f9fa;
+  border-left: 3px solid #1a73e8;
+  border-radius: 0 4px 4px 0;
+  margin-top: 0.5em;
+}
+
+.publication-summary--empty {
+  border-left-color: #ccc;
+  color: #999;
+  font-style: italic;
+}
+
+.publication-item--draft .publication-summary {
+  border-left-color: #b06000;
+  background: #fef7e0;
 }
 
 .citation-count {
@@ -322,4 +344,185 @@ h2 {
   padding-bottom: 0.3em;
   border-bottom: 2px solid #e8f0fe;
   color: #0d2137;
+}
+
+/* Teaching — subjects */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5em;
+  margin: 1.5em 0 2em;
+}
+
+.subject-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.2em;
+  background: #fff;
+}
+
+.subject-card--past {
+  opacity: 0.85;
+  background: #fafafa;
+}
+
+.subject-card--placeholder {
+  border-style: dashed;
+  border-color: #ccc;
+  background: #fefefe;
+}
+
+.subject-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.subject-code {
+  font-size: 0.8em;
+  font-weight: 700;
+  background: #0d2137;
+  color: #fff;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+}
+
+.subject-card h3 {
+  margin: 0.3em 0;
+  font-size: 1.1em;
+  color: #0d2137;
+}
+
+.subject-meta {
+  font-size: 0.85em;
+  color: #666;
+  margin: 0.5em 0;
+}
+
+.subject-description {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0.5em 0 0;
+}
+
+.placeholder-badge {
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #fef7e0;
+  color: #b06000;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+}
+
+/* Teaching — materials */
+.upload-instructions {
+  background: #e8f0fe;
+  border-radius: 8px;
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0 2em;
+}
+
+.upload-instructions h3 {
+  margin-top: 0;
+  border-bottom: none;
+  color: #0d2137;
+}
+
+.upload-instructions ol {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+}
+
+.upload-instructions code {
+  background: #fff;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.materials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.material-card {
+  display: flex;
+  gap: 1.2em;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.2em;
+  background: #fff;
+}
+
+.material-card--placeholder {
+  border-style: dashed;
+  border-color: #ccc;
+  background: #fefefe;
+}
+
+.material-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  color: #1a73e8;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.material-type i {
+  font-size: 1.8em;
+  margin-bottom: 0.3em;
+}
+
+.material-body {
+  flex: 1;
+}
+
+.material-body h3 {
+  margin: 0 0 0.3em;
+  font-size: 1.05em;
+  color: #0d2137;
+}
+
+.material-course {
+  font-size: 0.85em;
+  color: #666;
+  margin: 0.2em 0;
+}
+
+.material-description {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0.5em 0;
+}
+
+.material-actions {
+  margin-top: 0.5em;
+}
+
+.btn--disabled {
+  display: inline-block;
+  padding: 0.4em 1em;
+  background: #eee;
+  color: #999;
+  border-radius: 4px;
+  font-size: 0.85em;
+  cursor: default;
+}
+
+.btn--small {
+  font-size: 0.85em;
+  padding: 0.3em 0.8em;
+}
+
+.empty-state {
+  color: #999;
+  font-style: italic;
+  padding: 1em 0;
 }

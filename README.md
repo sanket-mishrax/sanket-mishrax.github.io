@@ -26,7 +26,8 @@ Content is managed through YAML data files in `_data/`:
 | `_data/institutes.yml` | Institute affiliations |
 | `_data/experience.yml` | Work experience and education |
 | `_data/admin.yml` | Administrative roles |
-| `_data/research_areas.yml` | Research areas and stats |
+| `_data/subjects.yml` | Courses and subjects taught |
+| `_data/teaching_materials.yml` | Lecture slides, notes, assignments (upload files to `assets/materials/`) |
 
 Update `_config.yml` for site-wide settings and Google Scholar citation metrics.
 
