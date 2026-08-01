@@ -12,6 +12,8 @@ $(document).ready(function () {
       $(this).parents('[class*="news"]').length == 0 &&
       $(this).parents('[class*="card"]').length == 0 &&
       $(this).parents('[class*="archive"]').length == 0 &&
+      $(this).parents('[class*="research-impact"]').length == 0 &&
+      $(this).hasClass("research-impact-table") == false &&
       $(this).parents("code").length == 0
     ) {
       // make table use bootstrap-table

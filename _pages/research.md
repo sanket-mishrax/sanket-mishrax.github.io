@@ -2,12 +2,14 @@
 layout: page
 permalink: /research/
 title: Research
-description: Research areas and impact across IoT security, streaming ML, smart cities, and edge AI.
+description: Research areas and impact in online ML, drift detection, deep learning, and IoT security.
 nav: true
 nav_order: 3
 ---
 
-## Research Areas
+## Primary Research Areas
+
+Broad themes distilled from my publication portfolio — spanning IoT security, adaptive and online machine learning, streaming analytics, edge AI, and related application domains.
 
 {% for area in site.data.research_areas.areas %}
 ### {{ area.name }}
@@ -26,14 +28,4 @@ nav_order: 3
 
 ## Research Impact
 
-| Metric | Value |
-|--------|-------|
-| Publications | {{ site.data.research_areas.research_stats.total_publications }}+ |
-| Citations | {{ site.data.research_areas.research_stats.total_citations }}+ |
-| h-index | {{ site.data.research_areas.research_stats.h_index }} |
-| i10-index | {{ site.data.research_areas.research_stats.i10_index }} |
-| Active since | {{ site.data.research_areas.research_stats.active_since }} |
-
-**Scholar profiles:** {% for profile in site.data.research_areas.research_stats.profiles %} [{{ profile.label }}]({{ profile.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}
-
-*Citation metrics from [{{ site.data.research_areas.research_stats.metrics_source }}](https://scholar.google.com/citations?user={{ site.scholar_userid }}&hl=en) (updated {{ site.data.research_areas.research_stats.metrics_updated }}).*
+{% include research-impact.liquid %}
