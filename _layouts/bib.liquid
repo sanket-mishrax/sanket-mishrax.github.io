@@ -65,6 +65,13 @@
         {{ entry.title }}
       {% endif %}
     </div>
+    {% if entry.type == 'article' %}
+      <div class="pub-type"><span class="pub-type-badge pub-type-journal">Journal</span></div>
+    {% elsif entry.type == 'inproceedings' %}
+      <div class="pub-type"><span class="pub-type-badge pub-type-conference">Conference</span></div>
+    {% elsif entry.type == 'incollection' %}
+      <div class="pub-type"><span class="pub-type-badge pub-type-chapter">Book Chapter</span></div>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
