@@ -39,7 +39,14 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  {% if site.enable_publication_thumbnails %}
+    {% assign content_col = 'col-sm-7' %}
+    {% assign metrics_col = 'col-sm-3' %}
+  {% else %}
+    {% assign content_col = 'col-sm-9' %}
+    {% assign metrics_col = 'col-sm-3' %}
+  {% endif %}
+  <div id="{{entry.key}}" class="{{ content_col }}">
     <!-- Title -->
     {% assign entry_url = null %}
     {% if entry.doi %}
@@ -183,16 +190,16 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">{{ entry.award_name ? entry.award_name : "Awarded" }}</a>
+        <a class="award btn btn-sm z-depth-0" role="button" href="#">{{ entry.award_name ? entry.award_name : "Awarded" }}</a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button" href="#">Abs</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button" href="#">Bib</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -216,7 +223,7 @@
         {% endif %}
       {% endif %}
       {% if entry.video %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button" href="#">Video</a>
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
@@ -330,4 +337,39 @@
       </div>
     {% endif %}
   </div>
+
+  {% assign has_journal_metrics = entry.indexing or entry.quartile or entry.impact_factor %}
+  {% assign has_conference_metrics = entry.core_ranking %}
+  {% if has_journal_metrics or has_conference_metrics %}
+    <div class="{{ metrics_col }} bib-metrics-col">
+      {% if has_journal_metrics %}
+        {% if entry.indexing %}
+          <div class="bib-metric-row">
+            <span class="bib-metric-label">Indexing</span>
+            <span class="bib-metric-value">{{ entry.indexing }}</span>
+          </div>
+        {% endif %}
+        {% if entry.quartile %}
+          <div class="bib-metric-row">
+            <span class="bib-metric-label">Quartile</span>
+            <span class="bib-metric-value">{{ entry.quartile }}</span>
+          </div>
+        {% endif %}
+        {% if entry.impact_factor %}
+          <div class="bib-metric-row">
+            <span class="bib-metric-label">IF</span>
+            <span class="bib-metric-value">
+              {{- entry.impact_factor -}}
+              {%- if entry.impact_factor_year %} <span class="bib-metric-year">({{ entry.impact_factor_year }})</span>{% endif -%}
+            </span>
+          </div>
+        {% endif %}
+      {% elsif has_conference_metrics %}
+        <div class="bib-metric-row">
+          <span class="bib-metric-label">CORE{% if entry.core_edition %} ({{ entry.core_edition }}){% endif %}</span>
+          <span class="bib-metric-value">{{ entry.core_ranking }}</span>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
 </div>

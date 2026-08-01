@@ -1,0 +1,66 @@
+<div class="teaching-materials" id="teaching-materials">
+  <div id="teaching-materials-gate" class="teaching-materials-gate">
+    <p class="teaching-materials-gate-text">Course materials are available to <strong>@manipal.edu</strong> accounts only.</p>
+    <form id="teaching-materials-form" class="teaching-materials-form" novalidate>
+      <label class="sr-only" for="teaching-materials-email">Manipal email address</label>
+      <div class="input-group">
+        <input
+          id="teaching-materials-email"
+          class="form-control"
+          type="email"
+          name="email"
+          placeholder="you@manipal.edu"
+          autocomplete="email"
+          required
+        >
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="submit">Access materials</button>
+        </div>
+      </div>
+      <p id="teaching-materials-error" class="teaching-materials-error" hidden>Please sign in with a valid Manipal University email address.</p>
+    </form>
+  </div>
+
+  <div id="teaching-materials-content" class="teaching-materials-content" hidden>
+    {% assign published_materials = site.data.teaching_materials | where_exp: "item", "item.placeholder != true" %}
+    {% if published_materials.size > 0 %}
+      <div class="table-responsive">
+        <table class="table table-sm teaching-materials-table">
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Course</th>
+              <th>Type</th>
+              <th>Semester</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for material in published_materials %}
+              <tr>
+                <td>
+                  {% if material.url %}
+                    <a href="{{ material.url }}" target="_blank" rel="noopener noreferrer">{{ material.title }}</a>
+                  {% elsif material.file %}
+                    <a href="{{ material.file | relative_url }}">{{ material.title }}</a>
+                  {% else %}
+                    {{ material.title }}
+                  {% endif %}
+                </td>
+                <td>{{ material.course }}</td>
+                <td>{{ material.type | capitalize }}</td>
+                <td>{{ material.semester }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <p class="teaching-materials-empty">No course materials are published yet.</p>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  window.TEACHING_MATERIALS_DOMAINS = {{ site.teaching_materials.allowed_email_domains | default: '["manipal.edu"]' | jsonify }};
+</script>
+<script defer src="{{ '/assets/js/teaching-materials.js' | relative_url | bust_file_cache }}"></script>

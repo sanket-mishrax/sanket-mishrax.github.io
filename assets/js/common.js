@@ -1,19 +1,31 @@
 $(document).ready(function () {
+  function togglePublicationBlock($trigger, selector) {
+    const $entry = $trigger.closest(".row");
+    $entry.find(selector).toggleClass("open");
+  }
+
+  function closeOtherPublicationBlocks($trigger, selectors) {
+    const $entry = $trigger.closest(".row");
+    selectors.forEach(function (selector) {
+      $entry.find(selector).removeClass("open");
+    });
+  }
+
   // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  $("a.abstract").click(function (event) {
+    event.preventDefault();
+    closeOtherPublicationBlocks($(this), [".award.hidden", ".bibtex.hidden"]);
+    togglePublicationBlock($(this), "div.abstract.hidden");
   });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  $("a.award").click(function (event) {
+    event.preventDefault();
+    closeOtherPublicationBlocks($(this), ["div.abstract.hidden", ".bibtex.hidden"]);
+    togglePublicationBlock($(this), ".award.hidden");
   });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  $("a.bibtex").click(function (event) {
+    event.preventDefault();
+    closeOtherPublicationBlocks($(this), ["div.abstract.hidden", ".award.hidden"]);
+    togglePublicationBlock($(this), ".bibtex.hidden");
   });
   $("a").removeClass("waves-effect waves-light");
 
