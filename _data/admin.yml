@@ -83,11 +83,3 @@ academic_service:
       - "Multimedia Tools and Applications"
       - "Egyptian Informatics Journal"
     period: "2019 – Present"
-
-  - role: "Session Chair / Technical Program Committee"
-    venues:
-      - "IEEE INDICON"
-      - "IEEE ANTS"
-      - "ACM CoDS-COMAD"
-      - "International Conference on Big Data Analytics (BDA)"
-    period: "2018 – Present"
