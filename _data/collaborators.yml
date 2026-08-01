@@ -14,22 +14,10 @@
     - "Machine Learning"
   notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
 
-- name: "Dr. Chinmay Hota"
-  slug: chinmay-hota
-  image: collaborators/chinmay-hota.svg
-  affiliation: "BITS Pilani, Hyderabad Campus"
-  country: "India"
-  joint_papers: 1
-  research_areas:
-    - "Community Detection"
-    - "Evolutionary Algorithms"
-    - "IoT Security"
-  notable_work: "An evolutionary GA-based approach for community detection in IoT"
-
 - name: "Dr. T. Anitha Kumari"
   slug: t-anitha-kumari
   image: collaborators/t-anitha-kumari.svg
-  affiliation: "SRM Institute of Science and Technology"
+  affiliation: "SRM University–AP, Amaravati"
   country: "India"
   joint_papers: 5
   research_areas:
@@ -41,7 +29,7 @@
 - name: "Dr. R. K. Shrivastava"
   slug: r-k-shrivastava
   image: collaborators/r-k-shrivastava.svg
-  affiliation: "Research Collaborator"
+  affiliation: "Bennett University, Greater Noida"
   country: "India"
   joint_papers: 3
   research_areas:
@@ -52,8 +40,8 @@
 - name: "Dr. Vikash Kumar Singh"
   slug: vikash-kumar-singh
   image: collaborators/vikash-kumar-singh.svg
-  affiliation: "University of North Carolina at Charlotte"
-  country: "USA"
+  affiliation: "VIT-AP University, Amaravati"
+  country: "India"
   joint_papers: 3
   research_areas:
     - "Crowdsensing"
@@ -64,7 +52,7 @@
 - name: "Dr. Rashmi Sahay"
   slug: rashmi-sahay
   image: collaborators/rashmi-sahay.svg
-  affiliation: "Research Collaborator"
+  affiliation: "ICFAI Foundation for Higher Education (IFHE), Hyderabad"
   country: "India"
   joint_papers: 2
   research_areas:
@@ -75,8 +63,8 @@
 - name: "Dr. R. Dwivedula"
   slug: r-dwivedula
   image: collaborators/r-dwivedula.svg
-  affiliation: "Research Collaborator"
-  country: "India"
+  affiliation: "University of Texas at Austin"
+  country: "USA"
   joint_papers: 2
   research_areas:
     - "Deep Learning"
@@ -86,7 +74,7 @@
 - name: "Dr. V. Kshirsagar"
   slug: v-kshirsagar
   image: collaborators/v-kshirsagar.svg
-  affiliation: "Research Collaborator"
+  affiliation: "Rubrik, Pune"
   country: "India"
   joint_papers: 2
   research_areas:
@@ -94,22 +82,11 @@
     - "Anomaly Detection"
   notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
 
-- name: "Dr. Lov Kumar"
-  slug: lov-kumar
-  image: collaborators/lov-kumar.svg
-  affiliation: "Indian Institute of Technology (IIT)"
-  country: "India"
-  joint_papers: 2
-  research_areas:
-    - "Community Detection"
-    - "Evolutionary Algorithms"
-  notable_work: "An evolutionary GA-based approach for community detection in IoT"
-
 - name: "Dr. Sunil Kumar Singh"
   slug: sunil-kumar-singh
   image: collaborators/sunil-kumar-singh.svg
-  affiliation: "Dartmouth College"
-  country: "USA"
+  affiliation: "MIT Bengaluru, MAHE"
+  country: "India"
   joint_papers: 2
   research_areas:
     - "VANETs"
@@ -119,8 +96,8 @@
 - name: "Dr. Bernard Ngangbam"
   slug: bernard-ngangbam
   image: collaborators/bernard-ngangbam.svg
-  affiliation: "Research Collaborator"
-  country: "India"
+  affiliation: "Nippon Koei Co., Ltd., Tsukuba"
+  country: "Japan"
   joint_papers: 2
   research_areas:
     - "Healthcare IoT"
@@ -130,19 +107,42 @@
 - name: "Dr. Shritik Raj"
   slug: shritik-raj
   image: collaborators/shritik-raj.svg
-  affiliation: "Research Collaborator"
-  country: "India"
+  affiliation: "Kajima Corporation, Tokyo"
+  country: "Japan"
   joint_papers: 2
   research_areas:
     - "Botnet Detection"
     - "Lightweight ML"
   notable_work: "Knox: Lightweight ML approaches for botnet attack detection"
 
+- name: "Dr. Lov Kumar"
+  slug: lov-kumar
+  image: collaborators/lov-kumar.svg
+  affiliation: "NIT Kurukshetra"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Community Detection"
+    - "Evolutionary Algorithms"
+  notable_work: "An evolutionary GA-based approach for community detection in IoT"
+
+- name: "Dr. Chinmay Hota"
+  slug: chinmay-hota
+  image: collaborators/chinmay-hota.svg
+  affiliation: "Amazon Web Services (AWS)"
+  country: "India"
+  joint_papers: 1
+  research_areas:
+    - "Community Detection"
+    - "Evolutionary Algorithms"
+    - "IoT Security"
+  notable_work: "An evolutionary GA-based approach for community detection in IoT"
+
 - name: "Dr. Abhaya Nayak"
   slug: abhaya-nayak
   image: collaborators/abhaya-nayak.svg
-  affiliation: "Research Collaborator"
-  country: "India"
+  affiliation: "Macquarie University, Sydney"
+  country: "Australia"
   joint_papers: 1
   research_areas:
     - "Community Detection"
@@ -152,7 +152,7 @@
 - name: "Dr. M. Karthikeyan"
   slug: m-karthikeyan
   image: collaborators/m-karthikeyan.svg
-  affiliation: "Research Collaborator"
+  affiliation: "SRM Institute of Science and Technology (SRMIST), Kattankulathur"
   country: "India"
   joint_papers: 1
   research_areas:
@@ -163,7 +163,7 @@
 - name: "Anjani Samhitha Jasti"
   slug: anjani-samhitha-jasti
   image: collaborators/anjani-samhitha-jasti.svg
-  affiliation: "VIT-AP University"
+  affiliation: "VIT-AP University, Amaravati"
   country: "India"
   joint_papers: 1
   research_areas:
