@@ -1,15 +1,15 @@
 # Subjects taught — link materials via teaching_materials.yml (course field).
 
 - name: "Research Methodology"
-  level: "M.Tech / Ph.D."
+  level: "B.Tech"
   institution: "MIT Bengaluru, MAHE"
   status: "current"
   description: >-
     Research design, literature review, experimental methodology, academic writing,
-    and thesis planning for graduate students.
+    and project planning for undergraduate students.
 
 - name: "Computer Networks"
-  level: "B.Tech / M.Tech"
+  level: "B.Tech"
   institution: "MIT Bengaluru, MAHE"
   status: "current"
   description: >-
@@ -17,7 +17,7 @@
     and network security fundamentals.
 
 - name: "Operating Systems"
-  level: "B.Tech / M.Tech"
+  level: "B.Tech"
   institution: "MIT Bengaluru, MAHE"
   status: "current"
   description: >-
@@ -25,7 +25,7 @@
     and system programming concepts.
 
 - name: "Blockchain Technology"
-  level: "B.Tech / M.Tech"
+  level: "B.Tech"
   institution: "MIT Bengaluru, MAHE"
   status: "current"
   description: >-

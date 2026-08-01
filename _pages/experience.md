@@ -12,7 +12,7 @@ nav_order: 5
 **Associate Professor** — Manipal Institute of Technology Bengaluru, MAHE
 *Bengaluru, India · Feb 2025 – Present*
 
-Leading research in online machine learning, concept drift adaptation, and IoT intrusion detection. Teaching graduate-level courses and mentoring M.Tech and Ph.D. scholars.
+Leading research in online machine learning, concept drift adaptation, and IoT intrusion detection. Teaching B.Tech courses and mentoring Ph.D. scholars.
 
 ## Past Experience
 
