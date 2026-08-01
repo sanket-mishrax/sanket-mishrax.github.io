@@ -1,7 +1,10 @@
 # Research collaborators extracted from publication co-authorship network
 # Sorted by number of joint publications (approximate)
+# Replace assets/img/collaborators/<slug>.svg with a real photo when available.
 
 - name: "Dr. Chinmay Hota"
+  slug: chinmay-hota
+  image: collaborators/chinmay-hota.svg
   affiliation: "BITS Pilani, Hyderabad Campus"
   country: "India"
   joint_papers: 8
@@ -12,6 +15,8 @@
   notable_work: "An evolutionary GA-based approach for community detection in IoT"
 
 - name: "Dr. T. Anitha Kumari"
+  slug: t-anitha-kumari
+  image: collaborators/t-anitha-kumari.svg
   affiliation: "SRM Institute of Science and Technology"
   country: "India"
   joint_papers: 5
@@ -22,6 +27,8 @@
   notable_work: "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
 
 - name: "Dr. R. K. Shrivastava"
+  slug: r-k-shrivastava
+  image: collaborators/r-k-shrivastava.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 3
@@ -31,6 +38,8 @@
   notable_work: "Preventing data tampering in IoT networks"
 
 - name: "Dr. Vikash Kumar Singh"
+  slug: vikash-kumar-singh
+  image: collaborators/vikash-kumar-singh.svg
   affiliation: "University of North Carolina at Charlotte"
   country: "USA"
   joint_papers: 3
@@ -41,6 +50,8 @@
   notable_work: "A truthful mechanism for time-bound tasks in IoT-based crowdsourcing"
 
 - name: "Dr. Rashmi Sahay"
+  slug: rashmi-sahay
+  image: collaborators/rashmi-sahay.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 2
@@ -50,6 +61,8 @@
   notable_work: "LIRAD: Lightweight tree-based approaches for attack detection"
 
 - name: "Dr. R. Dwivedula"
+  slug: r-dwivedula
+  image: collaborators/r-dwivedula.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 2
@@ -59,6 +72,8 @@
   notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
 
 - name: "Dr. V. Kshirsagar"
+  slug: v-kshirsagar
+  image: collaborators/v-kshirsagar.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 2
@@ -68,6 +83,8 @@
   notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
 
 - name: "Dr. Lov Kumar"
+  slug: lov-kumar
+  image: collaborators/lov-kumar.svg
   affiliation: "Indian Institute of Technology (IIT)"
   country: "India"
   joint_papers: 2
@@ -77,6 +94,8 @@
   notable_work: "An evolutionary GA-based approach for community detection in IoT"
 
 - name: "Dr. Sunil Kumar Singh"
+  slug: sunil-kumar-singh
+  image: collaborators/sunil-kumar-singh.svg
   affiliation: "Dartmouth College"
   country: "USA"
   joint_papers: 2
@@ -86,6 +105,8 @@
   notable_work: "A quality aware multi-unit double auction framework for IoT crowdsensing"
 
 - name: "Dr. Bernard Ngangbam"
+  slug: bernard-ngangbam
+  image: collaborators/bernard-ngangbam.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 2
@@ -95,6 +116,8 @@
   notable_work: "CURA: Real-time AI and IoT based fall detection for dementia patients"
 
 - name: "Dr. Shritik Raj"
+  slug: shritik-raj
+  image: collaborators/shritik-raj.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 2
@@ -104,6 +127,8 @@
   notable_work: "Knox: Lightweight ML approaches for botnet attack detection"
 
 - name: "Dr. Abhaya Nayak"
+  slug: abhaya-nayak
+  image: collaborators/abhaya-nayak.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 1
@@ -113,6 +138,8 @@
   notable_work: "An evolutionary GA-based approach for community detection in IoT"
 
 - name: "Dr. M. Karthikeyan"
+  slug: m-karthikeyan
+  image: collaborators/m-karthikeyan.svg
   affiliation: "Research Collaborator"
   country: "India"
   joint_papers: 1
@@ -122,6 +149,8 @@
   notable_work: "Metaheuristic feature selection with ensemble representation learning for cyberattack detection"
 
 - name: "Dr. Anjani Samhitha Jasti"
+  slug: anjani-samhitha-jasti
+  image: collaborators/anjani-samhitha-jasti.svg
   affiliation: "SRM Institute of Science and Technology"
   country: "India"
   joint_papers: 1
