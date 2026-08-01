@@ -31,6 +31,9 @@ nav_order: 3
 | Publications | {{ site.data.research_areas.research_stats.total_publications }}+ |
 | Citations | {{ site.data.research_areas.research_stats.total_citations }}+ |
 | h-index | {{ site.data.research_areas.research_stats.h_index }} |
-| i10-index | 7 |
+| i10-index | {{ site.data.research_areas.research_stats.i10_index }} |
+| Active since | {{ site.data.research_areas.research_stats.active_since }} |
 
-*Metrics from [Google Scholar](https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en). Active research since {{ site.data.research_areas.research_stats.active_since }}.*
+**Scholar profiles:** {% for profile in site.data.research_areas.research_stats.profiles %} [{{ profile.label }}]({{ profile.url }}){% unless forloop.last %} · {% endunless %}{% endfor %}
+
+*Citation metrics from [{{ site.data.research_areas.research_stats.metrics_source }}](https://scholar.google.com/citations?user={{ site.scholar_userid }}&hl=en) (updated {{ site.data.research_areas.research_stats.metrics_updated }}).*
