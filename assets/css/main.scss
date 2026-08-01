@@ -139,13 +139,28 @@ h6 {
 }
 
 .publications ol.bibliography li .abbr {
-  min-width: 3.5rem;
+  min-width: 5.5rem;
   text-align: center;
 }
 
 .publications ol.bibliography li .abbr .badge {
   display: inline-block;
   min-width: 2.5rem;
+}
+
+.publications ol.bibliography li .abbr .venue-logo-link {
+  display: block;
+  line-height: 0;
+}
+
+.publications ol.bibliography li .abbr .venue-logo {
+  width: 100%;
+  min-width: 72px;
+  max-width: 96px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: #fff;
 }
 
 // Third column: journal/conference bibliometrics

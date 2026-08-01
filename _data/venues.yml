@@ -1,23 +1,59 @@
-IoT:
-  color: "#1a73e8"
-  url: https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en
-
-ML:
-  color: "#137333"
-  url: https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en
-
-IEEE:
-  color: "#b06000"
-  url: https://ieeexplore.ieee.org
-
-ACM:
-  color: "#7627bb"
-  url: https://dl.acm.org
-
 Springer:
   color: "#0d2137"
   url: https://link.springer.com
+  logo: /assets/img/venues/springer.svg
+  alt: Springer
+
+IEEE:
+  color: "#00629b"
+  url: https://ieeexplore.ieee.org
+  logo: /assets/img/venues/ieee.svg
+  alt: IEEE
 
 Elsevier:
-  color: "#c62828"
+  color: "#ff6c00"
   url: https://www.sciencedirect.com
+  logo: /assets/img/venues/elsevier.svg
+  alt: Elsevier
+
+Nature:
+  color: "#c41e3a"
+  url: https://www.nature.com
+  logo: /assets/img/venues/nature.svg
+  alt: Nature Portfolio
+
+ACM:
+  color: "#0085ca"
+  url: https://dl.acm.org
+  logo: /assets/img/venues/acm.svg
+  alt: ACM
+
+EAI:
+  color: "#e30613"
+  url: https://eai.eu
+  logo: /assets/img/venues/eai.svg
+  alt: EAI
+
+Hindawi:
+  color: "#1f4e79"
+  url: https://www.hindawi.com
+  logo: /assets/img/venues/hindawi.svg
+  alt: Hindawi
+
+World Scientific:
+  color: "#003366"
+  url: https://www.worldscientific.com
+  logo: /assets/img/venues/world-scientific.svg
+  alt: World Scientific
+
+CRC:
+  color: "#8b0000"
+  url: https://www.routledge.com
+  logo: /assets/img/venues/crc.svg
+  alt: CRC Press
+
+IET:
+  color: "#003087"
+  url: https://www.theiet.org
+  logo: /assets/img/venues/iet.svg
+  alt: IET

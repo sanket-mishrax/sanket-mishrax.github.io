@@ -699,8 +699,21 @@ footer.sticky-bottom {
       }
 
       .abbr {
-        height: 2rem;
         margin-bottom: 0.5rem;
+
+        .venue-logo-link {
+          display: block;
+          line-height: 0;
+        }
+
+        .venue-logo {
+          width: 100%;
+          min-width: 72px;
+          max-width: 96px;
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
 
         abbr {
           display: inline-block;

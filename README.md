@@ -97,7 +97,7 @@ Add or edit BibTeX entries. Custom fields used by the site:
 | Field | Purpose |
 |-------|---------|
 | `abstract` | Shown when visitors click **Abs** |
-| `abbr` | Topic badge (`ML`, `IoT`) — colours from `_data/venues.yml` |
+| `abbr` | Publisher/venue key — logo from `_data/venues.yml` (e.g. `IEEE`, `Springer`) |
 | `selected` | `true` to feature on the About page |
 | `doi` | Makes the title a link to the publisher |
 | `indexing` | Journal indexing (e.g. Scopus, SCIE) — metrics column |
