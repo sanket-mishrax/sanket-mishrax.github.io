@@ -51,6 +51,12 @@ $max-content-width: {{ site.max_width }};
 }
 
 // Publications page: fix year headers overlapping entries
+.publications-note {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+}
+
 .publications h2.bibliography {
   margin-bottom: 1rem !important;
   margin-top: 2.5rem;
