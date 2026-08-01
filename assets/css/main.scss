@@ -218,6 +218,34 @@ h6 {
   overflow-x: auto;
 }
 
+// Research impact: static table (skip bootstrap-table to avoid flicker on load)
+.research-impact {
+  margin-top: 0.5rem;
+}
+
+.research-impact-table {
+  width: 100%;
+  max-width: 36rem;
+  display: table;
+  margin-bottom: 1rem;
+}
+
+.research-impact-table th,
+.research-impact-table td {
+  padding: 0.55rem 0.85rem;
+  vertical-align: middle;
+}
+
+.research-impact-profiles {
+  margin-bottom: 0.5rem;
+}
+
+.research-impact-note {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+
 // Collaborations page: photo cards with name and institute
 .collaborators-grid {
   margin-top: 1.5rem;

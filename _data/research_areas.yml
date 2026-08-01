@@ -129,6 +129,18 @@ areas:
 
 research_stats:
   total_publications: 35
-  total_citations: 180
+  total_citations: 200
   h_index: 8
+  i10_index: 7
   active_since: 2017
+  metrics_updated: "Aug 2026"
+  metrics_source: Google Scholar
+  profiles:
+    - label: Google Scholar
+      url: https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en
+    - label: ResearchGate
+      url: https://www.researchgate.net/profile/Sanket-Mishra
+    - label: ORCID
+      url: https://orcid.org/0000-0002-3193-8160
+    - label: Scopus
+      url: https://www.scopus.com/authid/detail.uri?authorId=57200648670
