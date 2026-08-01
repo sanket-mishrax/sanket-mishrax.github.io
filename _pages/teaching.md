@@ -9,20 +9,30 @@ nav_order: 4
 
 ## Subjects Taught
 
-### Current
+### MIT Bengaluru, MAHE
 
-**CSE501 — Machine Learning** (M.Tech, MIT Bengaluru, Monsoon 2025)
-Supervised and unsupervised learning, ensemble methods, model evaluation, and hands-on projects with Python/scikit-learn.
+**Research Methodology** (M.Tech / Ph.D.)
+Research design, literature review, experimental methodology, academic writing, and thesis planning for graduate students.
 
-**CSE402 — Internet of Things & Security** (B.Tech/M.Tech, MIT Bengaluru, Monsoon 2025)
-IoT architectures, protocols, edge computing, intrusion detection, and secure device communication.
+**Computer Networks** (B.Tech / M.Tech)
+Network architectures, protocols, routing, transport layers, wireless networks, and network security fundamentals.
 
-### Past
+**Operating Systems** (B.Tech / M.Tech)
+Process management, memory management, file systems, scheduling, synchronization, and system programming concepts.
 
-**CSE301 — Data Structures and Algorithms** (B.Tech, VIT Vellore, 2019–2024)
+**Blockchain Technology** (B.Tech / M.Tech)
+Distributed ledger fundamentals, consensus mechanisms, smart contracts, cryptocurrencies, and blockchain applications.
 
-**CSE405 — Deep Learning** (M.Tech, VIT Vellore, 2022–2024)
-Neural networks, CNNs, RNNs, transfer learning, and applications in computer vision and NLP.
+### VIT-AP University
+
+**Operating Systems** (B.Tech)
+Process management, memory management, file systems, scheduling, and synchronization.
+
+**Data Structures** (B.Tech)
+Arrays, linked lists, stacks, queues, trees, graphs, hashing, and algorithmic analysis.
+
+**Computer Networks** (B.Tech)
+Network models, protocols, routing, switching, and network programming.
 
 ---
 
@@ -32,10 +42,7 @@ Upload files to `assets/materials/` in the repository, then add an entry in `_da
 
 | Material | Course | Type | Status |
 |----------|--------|------|--------|
-| Lecture 1 — Introduction to ML | CSE501 | Slides | *Placeholder — awaiting upload* |
-| Assignment 1 — Supervised Learning | CSE501 | Assignment | *Placeholder — awaiting upload* |
-| Lab Manual — IoT Security | CSE402 | Lab | *Placeholder — awaiting upload* |
-| Deep Learning Lecture Notes | CSE405 | Notes | *Placeholder — awaiting upload* |
+| *No materials uploaded yet* | — | — | *Awaiting upload* |
 
 To add a new material:
 1. Place your PDF or slides in `assets/materials/`
