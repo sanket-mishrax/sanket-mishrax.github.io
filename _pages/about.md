@@ -6,7 +6,7 @@ subtitle: Dr. · Associate Professor | MIT Bengaluru, MAHE · Machine Learning &
 
 profile:
   align: right
-  image: bio-photo.jpg
+  image: bio-photo.png
   image_circular: false
 
 news: false
