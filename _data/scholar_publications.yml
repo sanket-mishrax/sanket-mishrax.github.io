@@ -1,0 +1,243 @@
+synced_at: '2026-08-01T18:56:56+00:00'
+source: OpenAlex (fallback)
+publications:
+  - title: A Systematic Review of VANET Routing Protocols for Intelligent 
+      Transport Systems (ITSs)
+    year: 2026
+    citations: 2
+    scholar_id: W7134234163
+    authors: ''
+    venue: Journal of Advanced Transportation
+  - title: 'Sockpuppet Detection in Digital Platforms: A Systematic Review of Techniques
+      and Challenges'
+    year: 2026
+    citations: 0
+    scholar_id: W7165676228
+    authors: ''
+    venue: ''
+  - title: Integration of metaheuristic based feature selection with ensemble 
+      representation learning models for privacy aware cyberattack detection in 
+      IoT environments
+    year: 2025
+    citations: 7
+    scholar_id: W4411854769
+    authors: ''
+    venue: Scientific Reports
+  - title: 'OASIS: Online adaptive ensembles for drift adaptation on evolving IoT
+      data streams'
+    year: 2025
+    citations: 3
+    scholar_id: W4407894047
+    authors: ''
+    venue: Internet of Things
+  - title: Streamlined Data Pipeline for Real-Time Threat Detection and Model 
+      Inference
+    year: 2025
+    citations: 2
+    scholar_id: W4407783384
+    authors: ''
+    venue: ''
+  - title: 'APAROS: A Clustering-Based Hybrid Approach for Handling Overlapped Regions
+      in Imbalanced Datasets'
+    year: 2025
+    citations: 1
+    scholar_id: W4414538250
+    authors: ''
+    venue: IEEE Access
+  - title: 'ONNYX: Optimized Neural Networks Yielding eXplainable Insights from ECG
+      Signals-Based Data Streams'
+    year: 2025
+    citations: 0
+    scholar_id: W4413344488
+    authors: ''
+    venue: Lecture notes in computer science
+  - title: 'LIRAD: lightweight tree-based approaches on resource constrained IoT devices
+      for attack detection'
+    year: 2024
+    citations: 10
+    scholar_id: W4404928305
+    authors: ''
+    venue: Cluster Computing
+  - title: 'Tachyon: Enhancing stacked models using Bayesian optimization for intrusion
+      detection using different sampling approaches'
+    year: 2024
+    citations: 10
+    scholar_id: W4401832876
+    authors: ''
+    venue: Egyptian Informatics Journal
+  - title: 'AURA: Adaptive Unified Real-Time Analytics for IoT Intrusion Detection'
+    year: 2024
+    citations: 3
+    scholar_id: W4408100496
+    authors: ''
+    venue: ''
+  - title: 'KNOXRT: Knowledge-Networked Optimization for eXploratory Real-time Training'
+    year: 2024
+    citations: 0
+    scholar_id: W4408092330
+    authors: ''
+    venue: ''
+  - title: Automated Detection of Water Quality in Smart Cities Using Various 
+      Sampling Techniques
+    year: 2024
+    citations: 0
+    scholar_id: W4404044064
+    authors: ''
+    venue: ''
+  - title: 'Deep Learning-Based Multi-Criteria Recommender System: Leveraging Autoencoders
+      for Improved Personalization'
+    year: 2024
+    citations: 0
+    scholar_id: W4406418139
+    authors: ''
+    venue: ''
+  - title: Enhancing Multi-Criteria Recommendation Systems with Hot Deck 
+      Imputation and User-Specific Similarity Measures
+    year: 2024
+    citations: 0
+    scholar_id: W4405996867
+    authors: ''
+    venue: Soft Computing Research Society eBooks
+  - title: 'CURA: Real Time Artificial Intelligence and IoT based Fall Detection Systems
+      for patients suffering from Dementia'
+    year: 2023
+    citations: 6
+    scholar_id: W4387018242
+    authors: ''
+    venue: EAI Endorsed Transactions on Pervasive Health and Technology
+  - title: A truthful mechanism for time-bound tasks in IoT-based crowdsourcing 
+      with zero budget
+    year: 2023
+    citations: 6
+    scholar_id: W4382197535
+    authors: ''
+    venue: Multimedia Tools and Applications
+  - title: 'Knox: Lightweight Machine Learning Approaches for Automated Detection
+      of Botnet Attacks'
+    year: 2023
+    citations: 4
+    scholar_id: W4387048206
+    authors: ''
+    venue: ICST Transactions on Scalable Information Systems
+  - title: Optimized Tree-based Ensembles for Intrusion Detection in Internet of
+      Things
+    year: 2023
+    citations: 2
+    scholar_id: W4393172019
+    authors: ''
+    venue: ''
+  - title: 'Offloading in 5G Cellular Networks: Unexplored Strategies'
+    year: 2022
+    citations: 11
+    scholar_id: W4323646160
+    authors: ''
+    venue: ''
+  - title: A Quality Aware Multiunit Double Auction Framework for IoT-Based 
+      Mobile Crowdsensing in Strategic Setting
+    year: 2022
+    citations: 8
+    scholar_id: W4285236905
+    authors: ''
+    venue: IEEE Access
+  - title: 'QUAD: A Quality Aware Multi-Unit Double Auction Framework for IoT-Based
+      Mobile Crowdsensing in Strategic Setting'
+    year: 2022
+    citations: 3
+    scholar_id: W4221159626
+    authors: ''
+    venue: arXiv (Cornell University)
+  - title: 'HeuristiX: Adaptive Event Processing Using Lightweight Machine Learning
+      Approaches on Edge Devices'
+    year: 2022
+    citations: 0
+    scholar_id: W4225477266
+    authors: ''
+    venue: Lecture notes in electrical engineering
+  - title: Attention-Based Bi-LSTM for Anomaly Detection on Time-Series Data
+    year: 2021
+    citations: 8
+    scholar_id: W3199227687
+    authors: ''
+    venue: Lecture notes in computer science
+  - title: Analyzing events for traffic prediction on IoT data streams in a 
+      smart city scenario
+    year: 2021
+    citations: 0
+    scholar_id: W3201214583
+    authors: ''
+    venue: ''
+  - title: A course recommendation system based on grades
+    year: 2020
+    citations: 53
+    scholar_id: W3039536671
+    authors: ''
+    venue: 2020 International Conference on Computer Science, Engineering and 
+      Applications (ICCSEA)
+  - title: Robust Detection of Network Intrusion using Tree-based Convolutional 
+      Neural Networks
+    year: 2020
+    citations: 8
+    scholar_id: W3117997274
+    authors: ''
+    venue: ''
+  - title: Real-Time Probabilistic Approach for Traffic Prediction on IoT Data 
+      Streams
+    year: 2020
+    citations: 2
+    scholar_id: W3103836853
+    authors: ''
+    venue: Communications in computer and information science
+  - title: An evolutionary approach for congestion prediction on IoT data 
+      streams in smart city environment
+    year: 2020
+    citations: 0
+    scholar_id: W3049233511
+    authors: ''
+    venue: Developments of Artificial Intelligence Technologies in Computation 
+      and Robotics
+  - title: Internet of Things Based Occupancy Detection Using Ensemble 
+      Classifier for Smart Buildings
+    year: 2020
+    citations: 0
+    scholar_id: W3006950980
+    authors: ''
+    venue: Journal of Computational and Theoretical Nanoscience
+  - title: Sequential Anomaly Detection Using Feedback and Prioritized 
+      Experience Replay
+    year: 2020
+    citations: 0
+    scholar_id: W3115265797
+    authors: ''
+    venue: Lecture notes in computer science
+  - title: A REST Framework on IoT Streams using Apache Spark for Smart Cities
+    year: 2019
+    citations: 8
+    scholar_id: W3011617738
+    authors: ''
+    venue: ''
+  - title: An Evolutionary GA-Based Approach for Community Detection in IoT
+    year: 2019
+    citations: 8
+    scholar_id: W2951628963
+    authors: ''
+    venue: IEEE Access
+  - title: Preventing data tampering in IoT networks
+    year: 2019
+    citations: 7
+    scholar_id: W3036224308
+    authors: ''
+    venue: ''
+  - title: An Ingestion Based Analytics Framework for Complex Event Processing 
+      Engine in Internet of Things
+    year: 2018
+    citations: 6
+    scholar_id: W2900744503
+    authors: ''
+    venue: Lecture notes in computer science
+  - title: Resilient complex event processing in IoT using side-channel 
+      information
+    year: 2017
+    citations: 4
+    scholar_id: W2784830313
+    authors: ''
+    venue: ''

@@ -299,14 +299,15 @@ scholar:
 enable_publication_badges:
   altmetric: false
   dimensions: false
-  google_scholar: false
+    google_scholar: false
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
   [
     abbr,
     abstract,
-    additional_info,
+    google_scholar_id,
+    scholar_citations,
     altmetric,
     arxiv,
     award,

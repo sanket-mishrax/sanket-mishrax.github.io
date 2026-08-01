@@ -364,8 +364,21 @@
 
   {% assign has_journal_metrics = entry.indexing or entry.quartile or entry.impact_factor %}
   {% assign has_conference_metrics = entry.core_ranking %}
-  {% if has_journal_metrics or has_conference_metrics %}
+  {% assign has_scholar_metrics = entry.scholar_citations or entry.google_scholar_id %}
+  {% if has_journal_metrics or has_conference_metrics or has_scholar_metrics %}
     <div class="{{ metrics_col }} bib-metrics-col">
+      {% if has_scholar_metrics %}
+        <div class="bib-metric-row">
+          <span class="bib-metric-label">Citations</span>
+          <span class="bib-metric-value">
+            {% if entry.scholar_citations %}
+              {{ entry.scholar_citations }}
+            {% elsif entry.google_scholar_id %}
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}">Scholar</a>
+            {% endif %}
+          </span>
+        </div>
+      {% endif %}
       {% if has_journal_metrics %}
         {% if entry.indexing %}
           <div class="bib-metric-row">
