@@ -3,15 +3,15 @@
     <div class="col">
       <div class="card collaborator-card h-100">
         <div class="collaborator-photo">
-          {% assign image_path = collaborator.image | prepend: 'assets/img/' %}
-          {%
-            include figure.liquid
-            loading="lazy"
-            path=image_path
+          {% assign image_path = collaborator.image | prepend: 'assets/img/' | relative_url %}
+          <img
             class="collaborator-img"
-            sizes="(min-width: 992px) 30vw, (min-width: 576px) 45vw, 90vw"
-            alt=collaborator.name
-          %}
+            src="{{ image_path }}"
+            alt="{{ collaborator.name }}"
+            loading="lazy"
+            width="240"
+            height="220"
+          >
         </div>
         <div class="card-body text-center">
           <h3 class="card-title collaborator-name">{{ collaborator.name }}</h3>

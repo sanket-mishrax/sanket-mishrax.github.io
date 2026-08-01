@@ -142,6 +142,17 @@ $max-content-width: {{ site.max_width }};
   font-weight: 500;
 }
 
+// Mobile: keep dropdown menus visible inside collapsed navbar
+@media (max-width: 767px) {
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    border: none;
+    box-shadow: none;
+    padding-left: 1rem;
+  }
+}
+
 // Footer: ensure content is not hidden behind sticky footer
 body.fixed-top-nav {
   padding-bottom: 3rem;
