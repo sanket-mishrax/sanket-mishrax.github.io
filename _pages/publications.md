@@ -9,7 +9,7 @@ nav_order: 2
 
 <div class="publications">
 
-<p class="publications-note">Publications are listed below in reverse chronological order. Click any <strong>title</strong> to open the paper on the publisher site. Click <strong>Abs</strong> to expand the abstract summary on this page. Metrics are also available via <a href="https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en">Google Scholar</a>.</p>
+<p class="publications-note">Publications are listed below in reverse chronological order. Each entry has three columns: <strong>topic badge</strong>, <strong>paper details</strong>, and <strong>venue metrics</strong> (indexing, quartile, and impact factor for journals; CORE ranking for conferences). Click any <strong>title</strong> to open the paper on the publisher site. Click <strong>Abs</strong> to expand the abstract summary on this page.</p>
 
 {% bibliography %}
 
