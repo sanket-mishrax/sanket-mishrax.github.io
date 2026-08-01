@@ -1,3 +1,4 @@
+# Publishers (journals & book chapters)
 Springer:
   color: "#0d2137"
   url: https://link.springer.com
@@ -40,12 +41,6 @@ Hindawi:
   logo: /assets/img/venues/hindawi.svg
   alt: Hindawi
 
-World Scientific:
-  color: "#003366"
-  url: https://www.worldscientific.com
-  logo: /assets/img/venues/world-scientific.svg
-  alt: World Scientific
-
 CRC:
   color: "#8b0000"
   url: https://www.routledge.com
@@ -57,3 +52,82 @@ IET:
   url: https://www.theiet.org
   logo: /assets/img/venues/iet.svg
   alt: IET
+
+# Conferences
+ICANN:
+  color: "#5b2c83"
+  url: https://e-nns.org/icann
+  logo: /assets/img/venues/icann.svg
+  alt: ICANN
+
+ANTS:
+  color: "#00629b"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000000/all-proceedings
+  logo: /assets/img/venues/ants.svg
+  alt: IEEE ANTS
+
+BDA:
+  color: "#1565c0"
+  url: https://www.bigdatalab.org/bda/
+  logo: /assets/img/venues/bda.svg
+  alt: BDA
+
+CoDS-COMAD:
+  color: "#0085ca"
+  url: https://www.comad.in/
+  logo: /assets/img/venues/cods-comad.svg
+  alt: CoDS-COMAD
+
+INDICON:
+  color: "#004b87"
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000000/all-proceedings
+  logo: /assets/img/venues/indicon.svg
+  alt: IEEE INDICON
+
+SIN:
+  color: "#2e7d32"
+  url: https://www.sin-conf.org/
+  logo: /assets/img/venues/sin.svg
+  alt: SIN
+
+COMSNETS:
+  color: "#0d47a1"
+  url: https://www.comsnets.org/
+  logo: /assets/img/venues/comsnets.svg
+  alt: COMSNETS
+
+AVSS:
+  color: "#1a237e"
+  url: https://www.avss2026.org/
+  logo: /assets/img/venues/avss.svg
+  alt: AVSS
+
+TENCON:
+  color: "#b71c1c"
+  url: https://tencon2026.org/
+  logo: /assets/img/venues/tencon.svg
+  alt: IEEE TENCON
+
+ICONIP:
+  color: "#4527a0"
+  url: https://iconip2024.org/
+  logo: /assets/img/venues/iconip.svg
+  alt: ICONIP
+
+FLINS-ISKE:
+  color: "#003366"
+  url: https://www.worldscientific.com/worldscibooks/10.1142/12233
+  logo: /assets/img/venues/flins-iske.svg
+  alt: FLINS-ISKE
+
+ADCOM:
+  color: "#00695c"
+  url: https://adcom.tcs.com/
+  logo: /assets/img/venues/adcom.svg
+  alt: ADCOM
+
+NSS:
+  color: "#37474f"
+  url: https://nss2020.org/
+  logo: /assets/img/venues/nss.svg
+  alt: NSS
