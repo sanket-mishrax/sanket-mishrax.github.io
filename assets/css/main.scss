@@ -216,6 +216,40 @@ $max-content-width: {{ site.max_width }};
   font-weight: 500;
 }
 
+// Teaching page: Manipal-gated course materials
+.teaching-materials-gate {
+  max-width: 36rem;
+  margin-top: 0.5rem;
+}
+
+.teaching-materials-gate-text {
+  margin-bottom: 0.75rem;
+}
+
+.teaching-materials-form .input-group {
+  flex-wrap: nowrap;
+}
+
+.teaching-materials-error {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: #c0392b;
+  font-size: 0.9rem;
+}
+
+.teaching-materials-content {
+  margin-top: 0.5rem;
+}
+
+.teaching-materials-table th {
+  white-space: nowrap;
+}
+
+.teaching-materials-empty {
+  margin: 0;
+  color: var(--global-text-color-light);
+}
+
 // Mobile: keep dropdown menus visible inside collapsed navbar
 @media (max-width: 767px) {
   .navbar-nav .dropdown-menu {
