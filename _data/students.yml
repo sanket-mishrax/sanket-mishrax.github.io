@@ -1,0 +1,17 @@
+# Ph.D. students supervised
+
+phd_students:
+  - name: "Dr. T. Anitha Kumari"
+    period: "2022 – 2025"
+    status: "completed"
+    affiliation: "Faculty, SRM-AP University"
+
+  - name: "Ms. G. Surya Bharti"
+    period: "2025 – Present"
+    status: "current"
+    affiliation: "GITAM, Hyderabad"
+
+  - name: "Mr. Navakishore V"
+    period: "2026 – Present"
+    status: "current"
+    affiliation: "HITAM, Hyderabad"
