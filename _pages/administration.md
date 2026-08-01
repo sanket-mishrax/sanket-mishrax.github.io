@@ -3,8 +3,7 @@ layout: page
 permalink: /administration/
 title: administration
 description: Administrative roles and academic service.
-nav: true
-nav_order: 7
+nav: false
 ---
 
 ## Current Roles

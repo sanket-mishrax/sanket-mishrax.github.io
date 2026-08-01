@@ -21,3 +21,67 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// ---------------------------------------------------------------------------
+// Custom alignment fixes
+// ---------------------------------------------------------------------------
+
+// Navbar: prevent cramped wrapping with many links
+#navbar .navbar-nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  row-gap: 0.25rem;
+}
+
+#navbar .nav-link {
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  white-space: nowrap;
+}
+
+// Homepage profile: stack cleanly on mobile
+@media (max-width: 767px) {
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    width: 100% !important;
+    max-width: 280px;
+    margin: 0 auto 1.5rem auto;
+  }
+}
+
+// Publications: full-width content column, consistent spacing
+.publications ol.bibliography li .row {
+  margin-left: 0;
+  margin-right: 0;
+  align-items: flex-start;
+}
+
+.publications ol.bibliography li .col-sm-8,
+.publications ol.bibliography li .col-sm-10,
+.publications ol.bibliography li .col-sm-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.publications ol.bibliography li .title {
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.publications ol.bibliography li .author,
+.publications ol.bibliography li .periodical {
+  line-height: 1.5;
+}
+
+// Page content tables (teaching, collaborations)
+.page-content table {
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+}
+
+// Footer: ensure content is not hidden behind sticky footer
+body.fixed-top-nav {
+  padding-bottom: 3rem;
+}

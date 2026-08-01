@@ -23,6 +23,18 @@
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
+      {% else %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ '/' | relative_url }}">
+          {% if site.title == 'blank' %}
+            {% if site.first_name %}
+              <span class="font-weight-bold">{{- site.first_name -}}</span>
+            {% endif %}
+            {% if site.middle_name %}{{- site.middle_name -}}{% endif %}
+            {% if site.last_name %}{{- site.last_name -}}{% endif %}
+          {% else %}
+            {{- site.title -}}
+          {% endif %}
+        </a>
       {% endif %}
       <!-- Navbar Toggle -->
       <button

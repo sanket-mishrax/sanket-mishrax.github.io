@@ -3,8 +3,7 @@ layout: page
 permalink: /collaborations/
 title: collaborations
 description: Research co-authors and international collaboration network.
-nav: true
-nav_order: 6
+nav: false
 ---
 
 Key research collaborators from my publication network:
