@@ -1,27 +1,46 @@
-# Minimal Mistakes remote theme starter
+# sanketmishra.github.io
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Academic portfolio website for **Dr. Sanket Mishra** — Associate Professor at MIT Bengaluru, MAHE.
 
-Contains basic configuration to get you a site with:
+Live site: [https://sanketmishra.github.io](https://sanketmishra.github.io)
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Sections
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+- **Home** — Overview and recent highlights
+- **Research** — Research areas and impact metrics
+- **Publications** — Peer-reviewed papers from [Google Scholar](https://scholar.google.com/citations?user=LkngaM4AAAAJ)
+- **Collaborations** — Co-author network
+- **Experience** — Current and past positions, education
+- **Institutes** — Academic affiliations timeline
+- **Administration** — Administrative roles and academic service
+- **About** — Biography and contact
 
----
+## Updating Content
 
-## Troubleshooting
+Content is managed through YAML data files in `_data/`:
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+| File | Contents |
+|------|----------|
+| `_data/publications.yml` | Publications list |
+| `_data/collaborators.yml` | Research collaborators |
+| `_data/institutes.yml` | Institute affiliations |
+| `_data/experience.yml` | Work experience and education |
+| `_data/admin.yml` | Administrative roles |
+| `_data/subjects.yml` | Courses and subjects taught |
+| `_data/teaching_materials.yml` | Lecture slides, notes, assignments (upload files to `assets/materials/`) |
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Update `_config.yml` for site-wide settings and Google Scholar citation metrics.
+
+## Local Development
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Visit `http://localhost:4000`
+
+## Built With
+
+- [Jekyll](https://jekyllrb.com/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme

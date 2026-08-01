@@ -1,0 +1,57 @@
+# Subjects taught — update with your actual courses each semester.
+# Set status to "current" or "past". Link materials via the course field in teaching_materials.yml.
+
+- code: "CSE501"
+  name: "Machine Learning"
+  level: "M.Tech"
+  institution: "MIT Bengaluru, MAHE"
+  semester: "Monsoon 2025"
+  status: "current"
+  description: >-
+    [Placeholder] Add a brief course description — topics covered, learning outcomes,
+    and prerequisites. Example: supervised and unsupervised learning, ensemble methods,
+    model evaluation, and hands-on projects with Python/scikit-learn.
+  syllabus_url: ""  # optional: link to syllabus PDF in assets/materials/
+
+- code: "CSE402"
+  name: "Internet of Things & Security"
+  level: "B.Tech / M.Tech"
+  institution: "MIT Bengaluru, MAHE"
+  semester: "Monsoon 2025"
+  status: "current"
+  description: >-
+    [Placeholder] Add course description — IoT architectures, protocols, edge computing,
+    intrusion detection, and secure device communication.
+  syllabus_url: ""
+
+- code: "CSE301"
+  name: "Data Structures and Algorithms"
+  level: "B.Tech"
+  institution: "VIT Vellore"
+  semester: "2019 – 2024"
+  status: "past"
+  description: >-
+    [Placeholder] Add course description for this previously taught subject.
+  syllabus_url: ""
+
+- code: "CSE405"
+  name: "Deep Learning"
+  level: "M.Tech"
+  institution: "VIT Vellore"
+  semester: "2022 – 2024"
+  status: "past"
+  description: >-
+    [Placeholder] Add course description — neural networks, CNNs, RNNs, transfer learning,
+    and applications in computer vision and NLP.
+  syllabus_url: ""
+
+- code: "CSE___"
+  name: "[Add Subject Name]"
+  level: "[B.Tech / M.Tech / Ph.D.]"
+  institution: "[Institute Name]"
+  semester: "[Semester Year]"
+  status: "current"
+  description: >-
+    [Placeholder] Copy this entry to add a new subject. Fill in the code, name, level,
+    institution, semester, and a short description of what you teach.
+  syllabus_url: ""

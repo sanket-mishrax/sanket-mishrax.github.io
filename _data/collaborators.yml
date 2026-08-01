@@ -1,0 +1,131 @@
+# Research collaborators extracted from publication co-authorship network
+# Sorted by number of joint publications (approximate)
+
+- name: "Dr. Chinmay Hota"
+  affiliation: "BITS Pilani, Hyderabad Campus"
+  country: "India"
+  joint_papers: 8
+  research_areas:
+    - "IoT Security"
+    - "Machine Learning"
+    - "Complex Event Processing"
+  notable_work: "An evolutionary GA-based approach for community detection in IoT"
+
+- name: "Dr. T. Anitha Kumari"
+  affiliation: "SRM Institute of Science and Technology"
+  country: "India"
+  joint_papers: 5
+  research_areas:
+    - "Intrusion Detection"
+    - "Online Learning"
+    - "Concept Drift"
+  notable_work: "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
+
+- name: "Dr. R. K. Shrivastava"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 3
+  research_areas:
+    - "IoT Security"
+    - "Data Integrity"
+  notable_work: "Preventing data tampering in IoT networks"
+
+- name: "Dr. Vikash Kumar Singh"
+  affiliation: "University of North Carolina at Charlotte"
+  country: "USA"
+  joint_papers: 3
+  research_areas:
+    - "Crowdsensing"
+    - "Mechanism Design"
+    - "IoT"
+  notable_work: "A truthful mechanism for time-bound tasks in IoT-based crowdsourcing"
+
+- name: "Dr. Rashmi Sahay"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Lightweight ML"
+    - "IoT Security"
+  notable_work: "LIRAD: Lightweight tree-based approaches for attack detection"
+
+- name: "Dr. R. Dwivedula"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Deep Learning"
+    - "Anomaly Detection"
+  notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
+
+- name: "Dr. V. Kshirsagar"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Time-series Analysis"
+    - "Anomaly Detection"
+  notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
+
+- name: "Dr. Lov Kumar"
+  affiliation: "Indian Institute of Technology (IIT)"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Community Detection"
+    - "Evolutionary Algorithms"
+  notable_work: "An evolutionary GA-based approach for community detection in IoT"
+
+- name: "Dr. Sunil Kumar Singh"
+  affiliation: "Dartmouth College"
+  country: "USA"
+  joint_papers: 2
+  research_areas:
+    - "VANETs"
+    - "Mobile Crowdsensing"
+  notable_work: "A quality aware multi-unit double auction framework for IoT crowdsensing"
+
+- name: "Dr. Bernard Ngangbam"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Healthcare IoT"
+    - "Fall Detection"
+  notable_work: "CURA: Real-time AI and IoT based fall detection for dementia patients"
+
+- name: "Dr. Shritik Raj"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 2
+  research_areas:
+    - "Botnet Detection"
+    - "Lightweight ML"
+  notable_work: "Knox: Lightweight ML approaches for botnet attack detection"
+
+- name: "Dr. Abhaya Nayak"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 1
+  research_areas:
+    - "Community Detection"
+    - "Graph Algorithms"
+  notable_work: "An evolutionary GA-based approach for community detection in IoT"
+
+- name: "Dr. M. Karthikeyan"
+  affiliation: "Research Collaborator"
+  country: "India"
+  joint_papers: 1
+  research_areas:
+    - "Feature Selection"
+    - "Ensemble Learning"
+  notable_work: "Metaheuristic feature selection with ensemble representation learning for cyberattack detection"
+
+- name: "Dr. Anjani Samhitha Jasti"
+  affiliation: "SRM Institute of Science and Technology"
+  country: "India"
+  joint_papers: 1
+  research_areas:
+    - "Crowdsensing"
+    - "Auction Mechanisms"
+  notable_work: "Quality aware multi-unit double auction framework for IoT crowdsensing"

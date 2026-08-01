@@ -1,0 +1,93 @@
+# Research areas and expertise
+
+primary_areas:
+  - name: "Online Machine Learning"
+    icon: "fas fa-brain"
+    description: >-
+      Developing adaptive learning algorithms that evolve with streaming IoT data.
+      Focus on ensemble methods, incremental learning, and real-time model updates
+      without catastrophic forgetting.
+    keywords:
+      - "Online Ensembles"
+      - "Incremental Learning"
+      - "Streaming Data"
+      - "Adaptive Models"
+    representative_papers:
+      - "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
+      - "Tachyon: Enhancing stacked models using Bayesian optimization for intrusion detection"
+
+  - name: "Concept Drift Detection"
+    icon: "fas fa-chart-line"
+    description: >-
+      Detecting and adapting to changes in data distributions over time — a critical
+      challenge in IoT environments where attack patterns and network behavior evolve
+      continuously.
+    keywords:
+      - "Drift Detection"
+      - "Distribution Shift"
+      - "Adaptive Ensembles"
+      - "Evolving Data Streams"
+    representative_papers:
+      - "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
+      - "Aura: Adaptive unified real-time analytics for IoT intrusion detection"
+
+  - name: "Deep Learning for Security"
+    icon: "fas fa-shield-alt"
+    description: >-
+      Applying deep neural networks — including Bi-LSTMs, CNNs, and tree-based
+      convolutional networks — for anomaly detection, intrusion detection, and
+      cyberattack classification in IoT networks.
+    keywords:
+      - "Bi-LSTM"
+      - "Tree-based CNNs"
+      - "Anomaly Detection"
+      - "Intrusion Detection"
+    representative_papers:
+      - "Attention-based bi-LSTM for anomaly detection on time-series data"
+      - "Robust detection of network intrusion using tree-based convolutional neural networks"
+
+  - name: "Internet of Things (IoT) Security"
+    icon: "fas fa-network-wired"
+    description: >-
+      End-to-end security for IoT ecosystems — from lightweight attack detection on
+      resource-constrained edge devices to scalable analytics pipelines using Apache Spark
+      and complex event processing engines.
+    keywords:
+      - "IoT Intrusion Detection"
+      - "Edge Computing"
+      - "Complex Event Processing"
+      - "Smart Cities"
+    representative_papers:
+      - "LIRAD: Lightweight tree-based approaches on resource constrained IoT devices"
+      - "An ingestion based analytics framework for complex event processing in IoT"
+      - "A REST framework on IoT streams using Apache Spark for smart cities"
+
+secondary_areas:
+  - name: "Lightweight & Edge ML"
+    description: "Deploying efficient tree-based and ensemble models on resource-constrained IoT devices."
+    papers:
+      - "LIRAD"
+      - "Knox: Lightweight ML for botnet detection"
+
+  - name: "Healthcare IoT"
+    description: "AI-powered health monitoring including diabetes early detection and fall detection for dementia patients."
+    papers:
+      - "IoT-enabled early detection of diabetes using deep learning"
+      - "CURA: Real-time fall detection for dementia patients"
+
+  - name: "Mobile Crowdsensing & Mechanism Design"
+    description: "Auction mechanisms and truthful bidding for IoT-based crowdsensing platforms."
+    papers:
+      - "A truthful mechanism for time-bound tasks in IoT crowdsourcing"
+      - "Quality aware multi-unit double auction framework"
+
+  - name: "Community Detection in IoT Networks"
+    description: "Graph-based and evolutionary approaches for identifying communities in IoT network topologies."
+    papers:
+      - "An evolutionary GA-based approach for community detection in IoT"
+
+research_stats:
+  total_publications: 35
+  total_citations: 182
+  h_index: 8
+  active_since: 2017

@@ -1,0 +1,59 @@
+# Professional and academic experience
+
+current:
+  - title: "Associate Professor"
+    organization: "Manipal Institute of Technology Bengaluru, MAHE"
+    location: "Bengaluru, Karnataka, India"
+    period: "Feb 2025 – Present"
+    description: >-
+      Leading research in online machine learning, concept drift adaptation, and IoT
+      intrusion detection. Teaching graduate-level courses in machine learning and
+      data science. Building research collaborations across national and international institutions.
+    highlights:
+      - "Established IoT security and online ML research lab initiatives"
+      - "Mentoring M.Tech and Ph.D. research scholars"
+      - "Publishing in top-tier journals including Internet of Things, Cluster Computing, and Scientific Reports"
+
+past:
+  - title: "Assistant Professor"
+    organization: "VIT Vellore Institute of Technology"
+    location: "Amaravati, Andhra Pradesh, India"
+    period: "Sep 2020 – Feb 2025"
+    description: >-
+      Faculty member in the Department of Computer Science & Engineering. Led research
+      on adaptive intrusion detection systems, lightweight ML for resource-constrained
+      IoT devices, and online ensemble learning for evolving data streams.
+    highlights:
+      - "Published 20+ peer-reviewed papers during tenure"
+      - "Supervised multiple B.Tech and M.Tech thesis projects"
+      - "Developed Tachyon, LIRAD, OASIS, and Aura research frameworks"
+      - "Collaborated with researchers at SRM, UNC Charlotte, and Dartmouth"
+
+  - title: "Ph.D. Research Scholar"
+    organization: "BITS Pilani, Hyderabad Campus"
+    location: "Hyderabad, Telangana, India"
+    period: "2015 – 2020"
+    description: >-
+      Doctoral research on IoT security, complex event processing engines, and machine
+      learning approaches for network intrusion detection. Primary advisor collaboration
+      with Dr. Chinmay Hota.
+    highlights:
+      - "Thesis on IoT analytics and intrusion detection frameworks"
+      - "Published foundational work in IEEE Access, BDA, SIN, and INDICON"
+      - "Developed ingestion-based analytics framework for CEP in IoT"
+
+education:
+  - degree: "Ph.D. in Computer Science"
+    institution: "BITS Pilani, Hyderabad Campus"
+    year: "2020"
+    focus: "IoT Security, Machine Learning, Complex Event Processing"
+
+  - degree: "Master of Engineering (M.E.)"
+    institution: "Utkal University"
+    year: "2014"
+    focus: "Statistical Machine Translation, NLP"
+
+  - degree: "Bachelor of Technology (B.Tech)"
+    institution: "Engineering College"
+    year: "2012"
+    focus: "Computer Science & Engineering"

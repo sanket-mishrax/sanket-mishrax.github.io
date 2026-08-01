@@ -1,0 +1,20 @@
+<div class="collaborator-grid">
+{% for collab in site.data.collaborators %}
+  <div class="collaborator-card">
+    <h3>{{ collab.name }}</h3>
+    <p class="collab-affiliation"><i class="fas fa-university"></i> {{ collab.affiliation }}</p>
+    <p class="collab-country"><i class="fas fa-globe"></i> {{ collab.country }}</p>
+    <p class="collab-papers"><strong>{{ collab.joint_papers }}</strong> joint publication{% if collab.joint_papers > 1 %}s{% endif %}</p>
+    {% if collab.research_areas %}
+    <p class="collab-areas">
+      {% for area in collab.research_areas %}
+        <span class="tag">{{ area }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+    {% if collab.notable_work %}
+    <p class="collab-notable"><em>Notable:</em> {{ collab.notable_work }}</p>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>

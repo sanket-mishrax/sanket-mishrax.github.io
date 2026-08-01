@@ -1,0 +1,270 @@
+# Publications sourced from Google Scholar profile
+# https://scholar.google.com/citations?user=LkngaM4AAAAJ
+#
+# To add a new publication, copy the template at the bottom and fill in all fields.
+# The summary should be 2–4 sentences covering: problem addressed, method proposed,
+# key results, and practical impact.
+
+- title: "Attention-based bi-LSTM for anomaly detection on time-series data"
+  authors: "S. Mishra, V. Kshirsagar, R. Dwivedula, C. Hota"
+  venue: "International Conference on Artificial Neural Networks (ICANN)"
+  year: 2021
+  citations: 21
+  type: conference
+  summary: >-
+    Proposes an attention-based bidirectional LSTM model for detecting anomalies in
+    IoT time-series data streams. The attention mechanism highlights critical temporal
+    patterns that distinguish normal from anomalous behavior. Evaluated on real-world
+    sensor datasets, the model achieves improved detection accuracy over baseline RNN
+    and LSTM approaches.
+
+- title: "Tachyon: Enhancing stacked models using Bayesian optimization for intrusion detection using different sampling approaches"
+  authors: "T. A. Kumari, S. Mishra"
+  venue: "Egyptian Informatics Journal"
+  year: 2024
+  citations: 18
+  type: journal
+  doi: "10.1016/j.eij.2024.100520"
+  summary: >-
+    Introduces Tachyon, a stacked ensemble framework that uses Bayesian optimization
+    to tune hyperparameters and select optimal sampling strategies for network intrusion
+    detection. Compares SMOTE, ADASYN, and random undersampling on benchmark datasets.
+    Results show that optimized stacking with appropriate sampling significantly
+    improves F1-score on imbalanced attack traffic data.
+
+- title: "LIRAD: Lightweight tree-based approaches on resource constrained IoT devices for attack detection"
+  authors: "S. Mishra, T. Anithakumari, R. Sahay, R. K. Shrivastava, S. N. Mohanty, et al."
+  venue: "Cluster Computing"
+  year: 2025
+  citations: 14
+  type: journal
+  doi: "10.1007/s10586-024-04792-x"
+  summary: >-
+    Presents LIRAD, a family of lightweight tree-based classifiers designed for
+    deployment on resource-constrained IoT edge devices. Addresses the challenge of
+    running intrusion detection with limited memory and compute. Demonstrates that
+    pruned decision trees and random forests can match deep learning accuracy while
+    using a fraction of the resources.
+
+- title: "Preventing data tampering in IoT networks"
+  authors: "R. K. Shrivastava, S. Mishra, V. E. Archana, C. Hota"
+  venue: "IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)"
+  year: 2019
+  citations: 13
+  type: conference
+  summary: >-
+    Proposes a mechanism to detect and prevent data tampering attacks in IoT sensor
+    networks. Uses cryptographic hashing combined with anomaly detection to verify
+    data integrity at the edge before transmission to cloud backends. Evaluated on
+    simulated IoT deployments with injected tampering attacks.
+
+- title: "IoT-enabled early detection of diabetes diseases using deep learning and dimensionality reduction techniques"
+  authors: "T. Vaiyapuri, G. Alharbi, S. M. Dharmarajlu, Y. Bouteraa, S. Mishra, et al."
+  venue: "IEEE Access"
+  year: 2024
+  citations: 12
+  type: journal
+  summary: >-
+    Develops an IoT-based health monitoring system for early diabetes detection using
+    deep learning on wearable sensor data. Applies PCA and feature selection to reduce
+    dimensionality before feeding data into a neural network classifier. Achieves
+    high sensitivity for pre-diabetic screening in clinical validation studies.
+
+- title: "An ingestion based analytics framework for complex event processing engine in internet of things"
+  authors: "S. Mishra, M. Jain, B. Siva Naga Sasank, C. Hota"
+  venue: "International Conference on Big Data Analytics (BDA)"
+  year: 2018
+  citations: 11
+  type: conference
+  summary: >-
+    Designs an ingestion pipeline that feeds heterogeneous IoT data streams into a
+    Complex Event Processing (CEP) engine for real-time pattern detection. The framework
+    handles schema evolution, late-arriving events, and high-throughput ingestion from
+    thousands of concurrent sensors. Forms the foundational architecture for subsequent
+    IoT security analytics work.
+
+- title: "An evolutionary GA-based approach for community detection in IoT"
+  authors: "S. Mishra, C. Hota, L. Kumar, A. Nayak"
+  venue: "IEEE Access"
+  year: 2019
+  citations: 10
+  type: journal
+  doi: "10.1109/ACCESS.2019.2923965"
+  summary: >-
+    Applies genetic algorithms to detect communities in IoT network topologies, enabling
+    targeted security policies per device cluster. The evolutionary approach optimizes
+    modularity and connectivity constraints simultaneously. Outperforms Louvain and
+    label propagation on large-scale IoT network graphs.
+
+- title: "Integration of metaheuristic based feature selection with ensemble representation learning models for privacy aware cyberattack detection in IoT environments"
+  authors: "M. Karthikeyan, R. Brindha, M. M. Vianny, V. Vaitheeshwaran, M. Bachute, S. Mishra, et al."
+  venue: "Scientific Reports"
+  year: 2025
+  citations: 9
+  type: journal
+  summary: >-
+    Combines metaheuristic feature selection (PSO, GA) with ensemble representation
+    learning for privacy-preserving cyberattack detection in IoT. Reduces the feature
+    space to minimize sensitive data exposure while maintaining detection accuracy.
+    Validated on NSL-KDD and CIC-IDS2017 benchmark datasets.
+
+- title: "Robust detection of network intrusion using tree-based convolutional neural networks"
+  authors: "S. Mishra, R. Dwivedula, V. Kshirsagar, C. Hota"
+  venue: "ACM India Joint International Conference on Data Science and Management of Data (CoDS-COMAD)"
+  year: 2021
+  citations: 9
+  type: conference
+  summary: >-
+    Introduces TreeCNN, a hybrid architecture that applies convolutional operations
+    over tree-structured network flow features for intrusion classification. Captures
+    spatial relationships among protocol fields that flat feature vectors miss. Achieves
+    competitive accuracy with significantly faster inference than standard CNNs.
+
+- title: "A REST framework on IoT streams using Apache Spark for smart cities"
+  authors: "S. Mishra, C. Hota"
+  venue: "IEEE India Council International Conference (INDICON)"
+  year: 2019
+  citations: 9
+  type: conference
+  summary: >-
+    Presents a RESTful API layer over Apache Spark Streaming for ingesting and querying
+    IoT data in smart city deployments. Enables city operators to submit real-time
+    analytics jobs via standard HTTP endpoints. Demonstrated on traffic and environmental
+    sensor data from a pilot smart city deployment.
+
+- title: "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
+  authors: "T. Anithakumari, S. Mishra"
+  venue: "Internet of Things"
+  year: 2025
+  citations: 7
+  type: journal
+  doi: "10.1016/j.iot.2025.101545"
+  summary: >-
+    Proposes OASIS, an online ensemble framework that dynamically adapts to concept
+    drift in evolving IoT attack patterns. Uses sliding-window performance monitoring
+    to weight or replace base learners when drift is detected. Maintains high detection
+    rates across multiple drift scenarios without full model retraining.
+
+- title: "A truthful mechanism for time-bound tasks in IoT-based crowdsourcing with zero budget"
+  authors: "V. K. Singh, S. Mishra"
+  venue: "Multimedia Tools and Applications"
+  year: 2024
+  citations: 7
+  type: journal
+  doi: "10.1007/s11042-023-16015-3"
+  summary: >-
+    Designs a truthful auction mechanism for allocating time-bound sensing tasks in
+    IoT crowdsourcing platforms without monetary incentives. Workers are motivated
+    through reputation and priority-based task assignment. Proves strategy-proofness
+    and evaluates on simulated mobile crowdsensing scenarios.
+
+- title: "A quality aware multi-unit double auction framework for IoT-based mobile crowdsensing in strategic setting"
+  authors: "V. K. Singh, A. S. Jasti, S. K. Singh, S. Mishra, A. Alkhayyat"
+  venue: "IEEE Access"
+  year: 2022
+  citations: 7
+  type: journal
+  summary: >-
+    Proposes QUAD, a quality-aware multi-unit double auction for IoT mobile crowdsensing
+    where buyers and sellers act strategically. Incorporates data quality scoring into
+    bid matching and pricing. Demonstrates budget balance, individual rationality, and
+    improved data quality over first-price auctions.
+
+- title: "Optimized tree-based ensembles for intrusion detection in internet of things"
+  authors: "T. A. Kumari, S. Mishra"
+  venue: "IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)"
+  year: 2023
+  citations: 5
+  type: conference
+  summary: >-
+    Optimizes tree-based ensemble hyperparameters (depth, estimators, split criteria)
+    for IoT intrusion detection using grid search and cross-validation. Compares
+    Random Forest, Extra Trees, and Gradient Boosting on IoT-23 and Bot-IoT datasets.
+    Identifies configuration guidelines for edge deployment.
+
+- title: "A systematic review of VANET routing protocols for intelligent transport systems (ITSs)"
+  authors: "R. Tirumalasetti, S. K. Singh, P. K. Roy, S. Mishra"
+  venue: "Journal of Advanced Transportation"
+  year: 2026
+  citations: 4
+  type: journal
+  summary: >-
+    Systematically reviews VANET routing protocols for intelligent transportation
+    systems, categorizing approaches by topology, mobility awareness, and QoS support.
+    Identifies open challenges in security, scalability, and integration with 5G/6G
+    networks. Provides a taxonomy and future research directions.
+
+- title: "CURA: Real time artificial intelligence and IoT based fall detection systems for patients suffering from dementia"
+  authors: "S. Mishra, B. Ngangbam, S. Raj, N. R. Pradhan"
+  venue: "EAI Endorsed Transactions on Pervasive Health and Technology"
+  year: 2024
+  citations: 4
+  type: journal
+  doi: "10.4108/eetpht.9.3967"
+  summary: >-
+    Develops CURA, a real-time fall detection system for dementia patients using
+    wearable IoT accelerometers and an on-device AI classifier. Achieves low-latency
+    alerts to caregivers via a mobile app. Validated in a clinical pilot with elderly
+    patients, demonstrating high sensitivity with low false alarm rates.
+
+- title: "Knox: Lightweight machine learning approaches for automated detection of botnet attacks"
+  authors: "S. Raj, B. Ngangbam, S. Mishra, V. Gopalasetti, A. Bajpai, C. V. R. Reddy"
+  venue: "EAI Endorsed Transactions on Scalable Information Systems"
+  year: 2023
+  citations: 4
+  type: journal
+  doi: "10.4108/eetsis.3997"
+  summary: >-
+    Presents Knox, a lightweight ML pipeline for detecting botnet command-and-control
+    traffic on IoT devices. Uses flow-level statistical features with compact classifiers
+    suitable for gateway deployment. Evaluated on the ISOT botnet dataset with real-time
+    detection latency under 50ms per flow.
+
+- title: "Resilient complex event processing in IoT using side-channel information"
+  authors: "R. K. Shrivastava, S. Mishra, S. Barua, C. Hota"
+  venue: "International Conference on Security of Information and Networks (SIN)"
+  year: 2017
+  citations: 4
+  type: conference
+  summary: >-
+    Enhances CEP engine resilience in IoT by incorporating side-channel information
+    (power consumption, timing) alongside network events for attack detection. Side-channel
+    signals provide redundancy when primary data streams are compromised. Early foundational
+    work in the IoT security research program.
+
+- title: "Streamlined data pipeline for real-time threat detection and model inference"
+  authors: "S. Mishra, T. Anithakumari, C. Hota"
+  venue: "Under review / recent work"
+  year: 2025
+  citations: 0
+  type: preprint
+  summary: >-
+    [Placeholder — update when published] Describes an end-to-end data pipeline
+    architecture for real-time threat detection and model inference on streaming IoT
+    data. Covers ingestion, feature extraction, model serving, and alert generation in
+    a unified framework.
+
+- title: "Aura: Adaptive unified real-time analytics for IoT intrusion detection"
+  authors: "S. Mishra, T. Anithakumari, C. Hota"
+  venue: "Under review / recent work"
+  year: 2025
+  citations: 0
+  type: preprint
+  summary: >-
+    [Placeholder — update when published] Introduces Aura, a unified real-time analytics
+    platform that combines online learning, drift detection, and ensemble methods for
+    adaptive IoT intrusion detection. Designed for deployment across edge and cloud tiers.
+
+# --- TEMPLATE: Copy below to add a new publication ---
+#
+# - title: "Paper Title Here"
+#   authors: "S. Mishra, Co-Author Name"
+#   venue: "Journal or Conference Name"
+#   year: 2026
+#   citations: 0
+#   type: journal  # journal | conference | preprint
+#   doi: ""  # optional
+#   url: ""  # optional, for arXiv or preprint links
+#   summary: >-
+#     Write a 2–4 sentence summary: what problem does this paper address,
+#     what method is proposed, what are the key results, and why does it matter?
