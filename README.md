@@ -2,7 +2,9 @@
 
 Academic portfolio website powered by the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme (same template as [matouse.github.io](https://matouse.github.io/)).
 
-**Live site:** https://sanket-mishrax.github.io/sanketmishra.github.io/
+**Live site:** https://sanket-mishrax.github.io/
+
+> **One-time setup:** Rename this repository to `sanket-mishrax.github.io` in GitHub **Settings → General → Repository name** so the site is served at the root URL (not `/sanketmishra.github.io/`). Then set **Settings → Pages → Branch** to `gh-pages`.
 
 ## Pages
 

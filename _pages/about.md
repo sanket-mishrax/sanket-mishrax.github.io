@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: blank
 permalink: /
 subtitle: Associate Professor | MIT Bengaluru, MAHE · Machine Learning & IoT Security
 
@@ -14,7 +14,7 @@ selected_papers: true
 social: true
 ---
 
-I am **Dr. Sanket Mishra**, an Associate Professor in the School of Computer Engineering at [Manipal Institute of Technology Bengaluru](https://www.manipal.edu/mu/campuses/mahe-bengaluru.html) (MAHE). My research sits at the intersection of **online machine learning**, **concept drift detection**, **deep learning**, and **Internet of Things security** — building adaptive, scalable frameworks for real-time intrusion detection on evolving IoT data streams.
+I am an Associate Professor in the School of Computer Engineering at [Manipal Institute of Technology Bengaluru](https://www.manipal.edu/mu/campuses/mahe-bengaluru.html) (MAHE). My research sits at the intersection of **online machine learning**, **concept drift detection**, **deep learning**, and **Internet of Things security** — building adaptive, scalable frameworks for real-time intrusion detection on evolving IoT data streams.
 
 Previously an Assistant Professor at VIT Vellore (2020–2025), I earned my Ph.D. from BITS Pilani, Hyderabad. I have published 35+ peer-reviewed papers with 180+ citations in venues including *Internet of Things*, *Cluster Computing*, *IEEE Access*, and *Scientific Reports*.
 
