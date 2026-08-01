@@ -24,7 +24,7 @@ Faculty in the Department of CSE. Published 20+ papers, supervised thesis projec
 **Ph.D. Research Scholar** — BITS Pilani, Hyderabad Campus
 *Hyderabad, India · 2015 – 2020*
 
-Doctoral research on IoT security, complex event processing, and ML for intrusion detection under Dr. Chinmay Hota.
+Doctoral research on IoT security, complex event processing, and ML for intrusion detection under Dr. Chittaranjan Hota.
 
 ## Education
 

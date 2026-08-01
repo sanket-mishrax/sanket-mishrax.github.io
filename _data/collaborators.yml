@@ -2,16 +2,28 @@
 # Sorted by number of joint publications (approximate)
 # Replace assets/img/collaborators/<slug>.svg with a real photo when available.
 
-- name: "Dr. Chinmay Hota"
-  slug: chinmay-hota
-  image: collaborators/chinmay-hota.svg
+- name: "Dr. Chittaranjan Hota"
+  slug: chittaranjan-hota
+  image: collaborators/chittaranjan-hota.svg
   affiliation: "BITS Pilani, Hyderabad Campus"
   country: "India"
   joint_papers: 8
   research_areas:
     - "IoT Security"
-    - "Machine Learning"
     - "Complex Event Processing"
+    - "Machine Learning"
+  notable_work: "Attention-based bi-LSTM for anomaly detection on time-series data"
+
+- name: "Dr. Chinmay Hota"
+  slug: chinmay-hota
+  image: collaborators/chinmay-hota.svg
+  affiliation: "BITS Pilani, Hyderabad Campus"
+  country: "India"
+  joint_papers: 1
+  research_areas:
+    - "Community Detection"
+    - "Evolutionary Algorithms"
+    - "IoT Security"
   notable_work: "An evolutionary GA-based approach for community detection in IoT"
 
 - name: "Dr. T. Anitha Kumari"
