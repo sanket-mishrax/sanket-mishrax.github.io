@@ -1,5 +1,6 @@
 # Academic Portfolio — Dr. Sanket Mishra
-# https://sanketmishra.github.io
+# Live URL: https://sanket-mishrax.github.io/sanketmishra.github.io/
+# Note: sanketmishra.github.io requires the GitHub username "sanketmishra"
 
 title: Dr. Sanket Mishra
 title_separator: "|"
@@ -10,8 +11,8 @@ description: >-
   Academic portfolio of Dr. Sanket Mishra — Associate Professor at MIT Bengaluru, MAHE.
   Research in online machine learning, concept drift detection, deep learning, and
   Internet of Things security.
-url: "https://sanketmishra.github.io"
-baseurl: ""
+url: "https://sanket-mishrax.github.io"
+baseurl: "/sanketmishra.github.io"
 repository: "sanket-mishrax/sanketmishra.github.io"
 
 twitter_username:
