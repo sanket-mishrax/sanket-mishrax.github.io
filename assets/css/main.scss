@@ -50,28 +50,30 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
-// Publications: full-width content column, consistent spacing
+// Publications page: fix year headers overlapping entries
+.publications h2.bibliography {
+  margin-bottom: 1rem !important;
+  margin-top: 2.5rem;
+  clear: both;
+}
+
+.publications ol.bibliography li {
+  margin-bottom: 1.5rem;
+  clear: both;
+}
+
 .publications ol.bibliography li .row {
-  margin-left: 0;
-  margin-right: 0;
   align-items: flex-start;
 }
 
-.publications ol.bibliography li .col-sm-8,
-.publications ol.bibliography li .col-sm-10,
-.publications ol.bibliography li .col-sm-2 {
-  padding-left: 0;
-  padding-right: 0;
+.publications ol.bibliography li .abbr {
+  min-width: 3.5rem;
+  text-align: center;
 }
 
-.publications ol.bibliography li .title {
-  line-height: 1.4;
-  margin-bottom: 0.25rem;
-}
-
-.publications ol.bibliography li .author,
-.publications ol.bibliography li .periodical {
-  line-height: 1.5;
+.publications ol.bibliography li .abbr .badge {
+  display: inline-block;
+  min-width: 2.5rem;
 }
 
 // Page content tables (teaching, collaborations)
