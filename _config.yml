@@ -1,54 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Academic Portfolio — Dr. Sanket Mishra
+# https://sanketmishra.github.io
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+title: Dr. Sanket Mishra
+title_separator: "|"
+subtitle: "Associate Professor · Machine Learning & IoT Security Researcher"
+name: Sanket Mishra
+email: sanket.mishra@manipal.edu
+description: >-
+  Academic portfolio of Dr. Sanket Mishra — Associate Professor at MIT Bengaluru, MAHE.
+  Research in online machine learning, concept drift detection, deep learning, and
+  Internet of Things security.
+url: "https://sanketmishra.github.io"
+baseurl: ""
+repository: "sanket-mishrax/sanketmishra.github.io"
+
+twitter_username:
+github_username: sanket-mishrax
+linkedin_username: sanketmishra1
+minimal_mistakes_skin: "air"
+search: false
+words_per_minute: 200
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Kolkata
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -58,37 +39,46 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Dr. Sanket Mishra"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: >-
+    Associate Professor, School of Computer Engineering, MIT Bengaluru (MAHE).
+    Ph.D. from BITS Pilani. Research at the intersection of online machine learning,
+    concept drift, deep learning, and IoT security.
+  location: "Bengaluru, India"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-3193-8160"
+    - label: "Scopus"
+      icon: "fas fa-fw fa-book"
+      url: "https://www.scopus.com/authid/detail.uri?authorId=57200648670"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sanketmishra1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/sanket-mishrax"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:sanket.mishra@manipal.edu"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sanketmishra1"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/sanket-mishrax"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -96,10 +86,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+      share: false
+      related: false
   - scope:
       path: "_pages"
       type: pages
@@ -113,3 +101,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Scholar profile stats (update periodically from Google Scholar)
+scholar:
+  profile_url: "https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en"
+  citations: 182
+  h_index: 8
+  i10_index: 7

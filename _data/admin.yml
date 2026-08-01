@@ -1,0 +1,58 @@
+# Administrative and academic service roles
+# Update this file as you take on new responsibilities.
+
+current_roles:
+  - title: "Faculty Member"
+    organization: "School of Computer Engineering, MIT Bengaluru"
+    period: "Feb 2025 – Present"
+    responsibilities:
+      - "Curriculum development for machine learning and IoT courses"
+      - "Research committee participation"
+      - "Student project evaluation and thesis supervision"
+
+  - title: "Research Group Lead"
+    organization: "IoT Security & Online ML Lab, MIT Bengaluru"
+    period: "Feb 2025 – Present"
+    responsibilities:
+      - "Leading research on concept drift and adaptive intrusion detection"
+      - "Managing collaborative projects with national and international partners"
+      - "Guiding Ph.D. and M.Tech research scholars"
+
+past_roles:
+  - title: "Assistant Professor & Course Coordinator"
+    organization: "Department of CSE, VIT Vellore"
+    period: "Sep 2020 – Feb 2025"
+    responsibilities:
+      - "Coordinated machine learning and data mining laboratory courses"
+      - "Department examination and assessment coordination"
+      - "Organized departmental technical workshops and seminars"
+      - "Mentored student research clubs and coding competitions"
+
+  - title: "Ph.D. Representative"
+    organization: "BITS Pilani, Hyderabad Campus"
+    period: "2017 – 2019"
+    responsibilities:
+      - "Represented doctoral scholars in departmental academic meetings"
+      - "Organized research colloquia and paper reading sessions"
+
+academic_service:
+  - role: "Peer Reviewer"
+    venues:
+      - "IEEE Access"
+      - "Cluster Computing (Springer)"
+      - "Internet of Things (Elsevier)"
+      - "Multimedia Tools and Applications"
+      - "Egyptian Informatics Journal"
+    period: "2019 – Present"
+
+  - role: "Session Chair / Technical Program Committee"
+    venues:
+      - "IEEE INDICON"
+      - "IEEE ANTS"
+      - "ACM CoDS-COMAD"
+      - "International Conference on Big Data Analytics (BDA)"
+    period: "2018 – Present"
+
+  - role: "External Examiner"
+    description: "M.Tech and B.Tech thesis evaluation for affiliated universities"
+    period: "2021 – Present"

@@ -1,0 +1,46 @@
+<div class="experience-section">
+  <h2>Current Position</h2>
+  {% for job in site.data.experience.current %}
+  <div class="experience-card experience-card--current">
+    <h3>{{ job.title }}</h3>
+    <p class="exp-org"><i class="fas fa-building"></i> {{ job.organization }}</p>
+    <p class="exp-meta">
+      <i class="fas fa-map-marker-alt"></i> {{ job.location }} &nbsp;·&nbsp;
+      <i class="fas fa-calendar"></i> {{ job.period }}
+    </p>
+    <p>{{ job.description }}</p>
+    {% if job.highlights %}
+    <ul>
+      {% for h in job.highlights %}<li>{{ h }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  <h2>Past Experience</h2>
+  {% for job in site.data.experience.past %}
+  <div class="experience-card">
+    <h3>{{ job.title }}</h3>
+    <p class="exp-org"><i class="fas fa-building"></i> {{ job.organization }}</p>
+    <p class="exp-meta">
+      <i class="fas fa-map-marker-alt"></i> {{ job.location }} &nbsp;·&nbsp;
+      <i class="fas fa-calendar"></i> {{ job.period }}
+    </p>
+    <p>{{ job.description }}</p>
+    {% if job.highlights %}
+    <ul>
+      {% for h in job.highlights %}<li>{{ h }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  <h2>Education</h2>
+  {% for edu in site.data.experience.education %}
+  <div class="education-card">
+    <h3>{{ edu.degree }}</h3>
+    <p class="edu-inst"><i class="fas fa-university"></i> {{ edu.institution }} ({{ edu.year }})</p>
+    <p><em>Focus:</em> {{ edu.focus }}</p>
+  </div>
+  {% endfor %}
+</div>

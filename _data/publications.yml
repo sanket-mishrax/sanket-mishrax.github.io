@@ -1,0 +1,150 @@
+# Publications sourced from Google Scholar profile
+# https://scholar.google.com/citations?user=LkngaM4AAAAJ
+# Update this file when new papers are published.
+
+- title: "Attention-based bi-LSTM for anomaly detection on time-series data"
+  authors: "S. Mishra, V. Kshirsagar, R. Dwivedula, C. Hota"
+  venue: "International Conference on Artificial Neural Networks (ICANN)"
+  year: 2021
+  citations: 21
+  type: conference
+
+- title: "Tachyon: Enhancing stacked models using Bayesian optimization for intrusion detection using different sampling approaches"
+  authors: "T. A. Kumari, S. Mishra"
+  venue: "Egyptian Informatics Journal"
+  year: 2024
+  citations: 18
+  type: journal
+  doi: "10.1016/j.eij.2024.100520"
+
+- title: "LIRAD: Lightweight tree-based approaches on resource constrained IoT devices for attack detection"
+  authors: "S. Mishra, T. Anithakumari, R. Sahay, R. K. Shrivastava, S. N. Mohanty, et al."
+  venue: "Cluster Computing"
+  year: 2025
+  citations: 14
+  type: journal
+  doi: "10.1007/s10586-024-04792-x"
+
+- title: "Preventing data tampering in IoT networks"
+  authors: "R. K. Shrivastava, S. Mishra, V. E. Archana, C. Hota"
+  venue: "IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)"
+  year: 2019
+  citations: 13
+  type: conference
+
+- title: "IoT-enabled early detection of diabetes diseases using deep learning and dimensionality reduction techniques"
+  authors: "T. Vaiyapuri, G. Alharbi, S. M. Dharmarajlu, Y. Bouteraa, S. Mishra, et al."
+  venue: "IEEE Access"
+  year: 2024
+  citations: 12
+  type: journal
+
+- title: "An ingestion based analytics framework for complex event processing engine in internet of things"
+  authors: "S. Mishra, M. Jain, B. Siva Naga Sasank, C. Hota"
+  venue: "International Conference on Big Data Analytics (BDA)"
+  year: 2018
+  citations: 11
+  type: conference
+
+- title: "An evolutionary GA-based approach for community detection in IoT"
+  authors: "S. Mishra, C. Hota, L. Kumar, A. Nayak"
+  venue: "IEEE Access"
+  year: 2019
+  citations: 10
+  type: journal
+  doi: "10.1109/ACCESS.2019.2923965"
+
+- title: "Integration of metaheuristic based feature selection with ensemble representation learning models for privacy aware cyberattack detection in IoT environments"
+  authors: "M. Karthikeyan, R. Brindha, M. M. Vianny, V. Vaitheeshwaran, M. Bachute, S. Mishra, et al."
+  venue: "Scientific Reports"
+  year: 2025
+  citations: 9
+  type: journal
+
+- title: "Robust detection of network intrusion using tree-based convolutional neural networks"
+  authors: "S. Mishra, R. Dwivedula, V. Kshirsagar, C. Hota"
+  venue: "ACM India Joint International Conference on Data Science and Management of Data (CoDS-COMAD)"
+  year: 2021
+  citations: 9
+  type: conference
+
+- title: "A REST framework on IoT streams using Apache Spark for smart cities"
+  authors: "S. Mishra, C. Hota"
+  venue: "IEEE India Council International Conference (INDICON)"
+  year: 2019
+  citations: 9
+  type: conference
+
+- title: "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
+  authors: "T. Anithakumari, S. Mishra"
+  venue: "Internet of Things"
+  year: 2025
+  citations: 7
+  type: journal
+  doi: "10.1016/j.iot.2025.101545"
+
+- title: "A truthful mechanism for time-bound tasks in IoT-based crowdsourcing with zero budget"
+  authors: "V. K. Singh, S. Mishra"
+  venue: "Multimedia Tools and Applications"
+  year: 2024
+  citations: 7
+  type: journal
+  doi: "10.1007/s11042-023-16015-3"
+
+- title: "A quality aware multi-unit double auction framework for IoT-based mobile crowdsensing in strategic setting"
+  authors: "V. K. Singh, A. S. Jasti, S. K. Singh, S. Mishra, A. Alkhayyat"
+  venue: "IEEE Access"
+  year: 2022
+  citations: 7
+  type: journal
+
+- title: "Optimized tree-based ensembles for intrusion detection in internet of things"
+  authors: "T. A. Kumari, S. Mishra"
+  venue: "IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)"
+  year: 2023
+  citations: 5
+  type: conference
+
+- title: "A systematic review of VANET routing protocols for intelligent transport systems (ITSs)"
+  authors: "R. Tirumalasetti, S. K. Singh, P. K. Roy, S. Mishra"
+  venue: "Journal of Advanced Transportation"
+  year: 2026
+  citations: 4
+  type: journal
+
+- title: "CURA: Real time artificial intelligence and IoT based fall detection systems for patients suffering from dementia"
+  authors: "S. Mishra, B. Ngangbam, S. Raj, N. R. Pradhan"
+  venue: "EAI Endorsed Transactions on Pervasive Health and Technology"
+  year: 2024
+  citations: 4
+  type: journal
+  doi: "10.4108/eetpht.9.3967"
+
+- title: "Knox: Lightweight machine learning approaches for automated detection of botnet attacks"
+  authors: "S. Raj, B. Ngangbam, S. Mishra, V. Gopalasetti, A. Bajpai, C. V. R. Reddy"
+  venue: "EAI Endorsed Transactions on Scalable Information Systems"
+  year: 2023
+  citations: 4
+  type: journal
+  doi: "10.4108/eetsis.3997"
+
+- title: "Resilient complex event processing in IoT using side-channel information"
+  authors: "R. K. Shrivastava, S. Mishra, S. Barua, C. Hota"
+  venue: "International Conference on Security of Information and Networks (SIN)"
+  year: 2017
+  citations: 4
+  type: conference
+
+- title: "Streamlined data pipeline for real-time threat detection and model inference"
+  authors: "S. Mishra, T. Anithakumari, C. Hota"
+  venue: "Under review / recent work"
+  year: 2025
+  citations: 0
+  type: preprint
+
+- title: "Aura: Adaptive unified real-time analytics for IoT intrusion detection"
+  authors: "S. Mishra, T. Anithakumari, C. Hota"
+  venue: "Under review / recent work"
+  year: 2025
+  citations: 0
+  type: preprint

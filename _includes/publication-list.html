@@ -1,0 +1,20 @@
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
+<div class="publication-list">
+{% for pub in pubs %}
+  <div class="publication-item">
+    <h3 class="publication-title">{{ pub.title }}</h3>
+    <p class="publication-meta">
+      <strong>{{ pub.authors }}</strong><br>
+      <em>{{ pub.venue }}</em>, {{ pub.year }}
+      {% if pub.doi %} · <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      {% if pub.citations and pub.citations > 0 %} · <span class="citation-count">{{ pub.citations }} citations</span>{% endif %}
+      {% if pub.type %} · <span class="pub-type pub-type--{{ pub.type }}">{{ pub.type }}</span>{% endif %}
+    </p>
+  </div>
+{% endfor %}
+</div>
+<p class="scholar-link">
+  <a href="{{ site.scholar.profile_url }}" class="btn btn--primary" target="_blank" rel="noopener">
+  <i class="fas fa-graduation-cap"></i> View full profile on Google Scholar
+  </a>
+</p>

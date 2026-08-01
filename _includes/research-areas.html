@@ -1,0 +1,58 @@
+<div class="research-areas">
+  <h2>Primary Research Areas</h2>
+  <div class="research-grid">
+  {% for area in site.data.research_areas.primary_areas %}
+    <div class="research-card">
+      <h3><i class="{{ area.icon }}"></i> {{ area.name }}</h3>
+      <p>{{ area.description }}</p>
+      {% if area.keywords %}
+      <p class="keywords">
+        {% for kw in area.keywords %}<span class="tag">{{ kw }}</span>{% endfor %}
+      </p>
+      {% endif %}
+      {% if area.representative_papers %}
+      <p class="rep-papers"><strong>Key publications:</strong></p>
+      <ul>
+        {% for paper in area.representative_papers %}<li>{{ paper }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+
+  <h2>Additional Research Interests</h2>
+  <div class="secondary-areas">
+  {% for area in site.data.research_areas.secondary_areas %}
+    <div class="secondary-card">
+      <h3>{{ area.name }}</h3>
+      <p>{{ area.description }}</p>
+      {% if area.papers %}
+      <p><em>Related work:</em> {{ area.papers | join: ", " }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+  </div>
+
+  <div class="research-stats">
+    <h2>Research Impact</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-number">{{ site.data.research_areas.research_stats.total_publications }}</span>
+        <span class="stat-label">Publications</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">{{ site.scholar.citations }}</span>
+        <span class="stat-label">Citations</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">{{ site.scholar.h_index }}</span>
+        <span class="stat-label">h-index</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">{{ site.scholar.i10_index }}</span>
+        <span class="stat-label">i10-index</span>
+      </div>
+    </div>
+    <p class="stats-note">Metrics from <a href="{{ site.scholar.profile_url }}" target="_blank" rel="noopener">Google Scholar</a>. Active researcher since {{ site.data.research_areas.research_stats.active_since }}.</p>
+  </div>
+</div>

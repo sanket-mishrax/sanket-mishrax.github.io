@@ -1,9 +1,17 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Collaborations"
+    url: /collaborations/
+  - title: "Experience"
+    url: /experience/
+  - title: "Institutes"
+    url: /institutes/
+  - title: "Administration"
+    url: /administration/
   - title: "About"
     url: /about/

@@ -1,0 +1,51 @@
+# Academic and research institutes
+
+- name: "Manipal Institute of Technology Bengaluru"
+  parent: "Manipal Academy of Higher Education (MAHE)"
+  location: "Bengaluru, Karnataka, India"
+  role: "Associate Professor, School of Computer Engineering"
+  period: "Feb 2025 – Present"
+  current: true
+  website: "https://www.manipal.edu/mu/campuses/mahe-bengaluru.html"
+  description: >-
+    Leading research in online machine learning, concept drift detection, and IoT security.
+    Teaching and mentoring graduate students in computer science and engineering.
+  logo: "manipal"
+
+- name: "VIT Vellore Institute of Technology"
+  parent: "VIT University"
+  location: "Amaravati / Vellore, India"
+  role: "Assistant Professor, Department of Computer Science & Engineering"
+  period: "Sep 2020 – Feb 2025"
+  current: false
+  website: "https://vit.ac.in"
+  description: >-
+    Conducted research on IoT intrusion detection, online machine learning, and adaptive
+    frameworks. Supervised undergraduate and postgraduate thesis projects. Published
+    extensively in IEEE, ACM, and Springer venues.
+  logo: "vit"
+
+- name: "BITS Pilani, Hyderabad Campus"
+  parent: "Birla Institute of Technology and Science"
+  location: "Hyderabad, Telangana, India"
+  role: "Ph.D. Scholar, Department of Computer Science"
+  period: "2015 – 2020"
+  current: false
+  website: "https://www.bits-pilani.ac.in/hyderabad/"
+  description: >-
+    Doctoral research on IoT security, complex event processing, and machine learning
+    for intrusion detection. Collaborated with Dr. Chinmay Hota and published foundational
+    work in IEEE Access and international conferences.
+  logo: "bits"
+
+- name: "Utkal University"
+  parent: ""
+  location: "Bhubaneswar, Odisha, India"
+  role: "Master of Engineering (M.E.) in Computer Science"
+  period: "2012 – 2014"
+  current: false
+  website: "https://utkaluniversity.nic.in"
+  description: >-
+    Postgraduate studies with focus on statistical machine translation and natural
+    language processing foundations.
+  logo: "utkal"
