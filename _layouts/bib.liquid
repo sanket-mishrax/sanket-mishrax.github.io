@@ -183,16 +183,16 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">{{ entry.award_name ? entry.award_name : "Awarded" }}</a>
+        <a class="award btn btn-sm z-depth-0" role="button" href="#">{{ entry.award_name ? entry.award_name : "Awarded" }}</a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button" href="#">Abs</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button" href="#">Bib</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}

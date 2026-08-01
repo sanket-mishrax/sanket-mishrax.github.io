@@ -1,12 +1,16 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Peer-reviewed publications with summaries. Click a title to open the paper; click <strong>Abs</strong> to read the summary on this site.
+title: Publications
+description: Peer-reviewed publications with summaries.
 nav: true
 nav_order: 2
 ---
 
-Publications are listed below in reverse chronological order. Click any **title** to open the paper on the publisher site. Click **Abs** to read the summary on this site. Metrics are also available via [Google Scholar](https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en).
+<div class="publications">
+
+<p class="publications-note">Publications are listed below in reverse chronological order. Click any <strong>title</strong> to open the paper on the publisher site. Click <strong>Abs</strong> to expand the abstract summary on this page. Metrics are also available via <a href="https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en">Google Scholar</a>.</p>
 
 {% bibliography %}
+
+</div>

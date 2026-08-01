@@ -52,9 +52,14 @@ $max-content-width: {{ site.max_width }};
 
 // Publications page: fix year headers overlapping entries
 .publications-note {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 0.75rem 1rem;
   font-size: 0.95rem;
+  line-height: 1.5;
   color: var(--global-text-color);
+  background: var(--global-code-bg-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 4px;
 }
 
 .publications h2.bibliography {
