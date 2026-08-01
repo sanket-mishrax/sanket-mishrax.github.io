@@ -233,22 +233,50 @@ h6 {
   overflow-x: auto;
 }
 
-// Research impact: static table (skip bootstrap-table to avoid flicker on load)
+// Research impact: static metrics grid (avoid bootstrap-table / table-dark conflicts)
 .research-impact {
   margin-top: 0.5rem;
 }
 
-.research-impact-table {
+.research-impact-metrics {
   width: 100%;
   max-width: 36rem;
-  display: table;
   margin-bottom: 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  overflow: hidden;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
 }
 
-.research-impact-table th,
-.research-impact-table td {
+.research-impact-metrics-header,
+.research-impact-metric {
+  display: grid;
+  grid-template-columns: minmax(8rem, 1.2fr) minmax(4rem, 1fr);
+}
+
+.research-impact-metrics-header {
+  font-weight: 700;
+  background: var(--global-code-bg-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.research-impact-metric {
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.research-impact-metrics-header span,
+.research-impact-metric span {
   padding: 0.55rem 0.85rem;
   vertical-align: middle;
+}
+
+.research-impact-metric .metric-value {
+  font-weight: 600;
 }
 
 .research-impact-profiles {

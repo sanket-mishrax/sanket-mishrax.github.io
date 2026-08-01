@@ -1,35 +1,31 @@
 {% assign stats = site.data.research_areas.research_stats %}
 <div class="research-impact">
-  <table class="table table-bordered research-impact-table">
-    <thead>
-      <tr>
-        <th scope="col">Metric</th>
-        <th scope="col">Value</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Publications</td>
-        <td>{{ stats.total_publications }}+</td>
-      </tr>
-      <tr>
-        <td>Citations</td>
-        <td>{{ stats.total_citations }}+</td>
-      </tr>
-      <tr>
-        <td>h-index</td>
-        <td>{{ stats.h_index }}</td>
-      </tr>
-      <tr>
-        <td>i10-index</td>
-        <td>{{ stats.i10_index }}</td>
-      </tr>
-      <tr>
-        <td>Active since</td>
-        <td>{{ stats.active_since }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="research-impact-metrics" role="table" aria-label="Research impact metrics">
+    <div class="research-impact-metrics-header" role="row">
+      <span role="columnheader">Metric</span>
+      <span role="columnheader">Value</span>
+    </div>
+    <div class="research-impact-metric" role="row">
+      <span class="metric-label" role="cell">Publications</span>
+      <span class="metric-value" role="cell">{{ stats.total_publications }}+</span>
+    </div>
+    <div class="research-impact-metric" role="row">
+      <span class="metric-label" role="cell">Citations</span>
+      <span class="metric-value" role="cell">{{ stats.total_citations }}+</span>
+    </div>
+    <div class="research-impact-metric" role="row">
+      <span class="metric-label" role="cell">h-index</span>
+      <span class="metric-value" role="cell">{{ stats.h_index }}</span>
+    </div>
+    <div class="research-impact-metric" role="row">
+      <span class="metric-label" role="cell">i10-index</span>
+      <span class="metric-value" role="cell">{{ stats.i10_index }}</span>
+    </div>
+    <div class="research-impact-metric" role="row">
+      <span class="metric-label" role="cell">Active since</span>
+      <span class="metric-value" role="cell">{{ stats.active_since }}</span>
+    </div>
+  </div>
 
   <p class="research-impact-profiles">
     <strong>Scholar profiles:</strong>
