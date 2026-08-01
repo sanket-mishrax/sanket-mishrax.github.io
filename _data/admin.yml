@@ -1,9 +1,8 @@
 # Administrative and academic service roles
-# Update this file as you take on new responsibilities.
 
 current_roles:
-  - title: "Faculty Member"
-    organization: "School of Computer Engineering, MIT Bengaluru"
+  - title: "Associate Professor"
+    organization: "School of Computer Engineering, MIT Bengaluru, MAHE"
     period: "Feb 2025 – Present"
     responsibilities:
       - "Curriculum development for machine learning and IoT courses"
@@ -16,17 +15,36 @@ current_roles:
     responsibilities:
       - "Leading research on concept drift and adaptive intrusion detection"
       - "Managing collaborative projects with national and international partners"
-      - "Guiding Ph.D. and M.Tech research scholars"
+      - "Guiding Ph.D. and B.Tech research scholars"
 
 past_roles:
-  - title: "Assistant Professor & Course Coordinator"
-    organization: "Department of CSE, VIT Vellore"
-    period: "Sep 2020 – Feb 2025"
+  - title: "Assistant Professor (Sr. Grade II)"
+    organization: "Department of CSE, VIT-AP University, Amaravati"
+    period: "Aug 2023 – Feb 2025"
     responsibilities:
-      - "Coordinated machine learning and data mining laboratory courses"
+      - "Taught Operating Systems and Data Mining"
       - "Department examination and assessment coordination"
       - "Organized departmental technical workshops and seminars"
+
+  - title: "Assistant Professor (Sr. Grade I)"
+    organization: "Department of CSE, VIT-AP University, Amaravati"
+    period: "Jul 2021 – Jul 2023"
+    responsibilities:
+      - "Taught Operating Systems, Computer Networks, and Data Mining"
       - "Mentored student research clubs and coding competitions"
+
+  - title: "Assistant Professor"
+    organization: "Department of CSE, VIT-AP University, Amaravati"
+    period: "Sep 2020 – Jul 2021"
+    responsibilities:
+      - "Taught Problem Solving using Java and Data Structures & Algorithms"
+      - "Coordinated machine learning and data mining laboratory courses"
+
+  - title: "Lecturer"
+    organization: "Department of CSE, Gandhi Institute for Technology (GIFT), Bhubaneswar"
+    period: "Aug 2014 – Apr 2015"
+    responsibilities:
+      - "Taught Artificial Intelligence, Operating Systems, and Wireless Sensor Networks"
 
   - title: "Ph.D. Representative"
     organization: "BITS Pilani, Hyderabad Campus"
@@ -35,11 +53,32 @@ past_roles:
       - "Represented doctoral scholars in departmental academic meetings"
       - "Organized research colloquia and paper reading sessions"
 
+leadership_roles:
+  - role: "Workshop Organizing Member"
+    period: "2023 – 2024"
+    description: >-
+      Workshop on Fog Computing based Security Frameworks for IoT Botnet Attack
+      Prevention and Detection at IEEE ANTS
+  - role: "Nucleus Member"
+    description: "Core group of the Center of Excellence of Internet of Things, VIT-AP University"
+  - role: "CSI Convenor"
+    description: "Computer Society of India (CSI) convenor for the CSE department, Gandhi Institute for Technology (GIFT), Bhubaneswar"
+
 academic_service:
   - role: "Peer Reviewer"
     venues:
-      - "IEEE Access"
+      - "IEEE Transactions on Network and Service Management"
+      - "ACM Transactions on Asian and Low-Resource Language Information Processing"
       - "Cluster Computing (Springer)"
+      - "Scientific Reports (Springer)"
+      - "Journal of Supercomputing (Springer)"
+      - "Earth Informatics (Springer)"
+      - "IEEE Access"
+      - "International Journal of Grid and Utility Computing (Inderscience)"
+      - "Iranian Journal of Science and Technology, Transactions of Electrical Engineering (Springer)"
+      - "Discover Internet of Things (Springer)"
+      - "Peer-to-Peer Networking and Applications (Springer)"
+      - "Mobile Networks and Applications (Springer)"
       - "Internet of Things (Elsevier)"
       - "Multimedia Tools and Applications"
       - "Egyptian Informatics Journal"
@@ -54,5 +93,5 @@ academic_service:
     period: "2018 – Present"
 
   - role: "External Examiner"
-    description: "M.Tech and B.Tech thesis evaluation for affiliated universities"
+    description: "B.Tech thesis evaluation for affiliated universities"
     period: "2021 – Present"

@@ -9,21 +9,42 @@ nav_order: 7
 
 ## Current Roles
 
-**Faculty Member** — School of Computer Engineering, MIT Bengaluru (Feb 2025 – Present)
-Curriculum development, research committee participation, and thesis supervision.
+{% for role in site.data.admin.current_roles %}
+**{{ role.title }}** — {{ role.organization }} ({{ role.period }})
+{% for item in role.responsibilities %}
+- {{ item }}
+{% endfor %}
 
-**Research Group Lead** — IoT Security & Online ML Lab, MIT Bengaluru
-Leading research on concept drift and adaptive intrusion detection with national and international partners.
+{% endfor %}
 
 ## Past Roles
 
-**Assistant Professor & Course Coordinator** — VIT Vellore (Sep 2020 – Feb 2025)
-Coordinated ML and data mining labs, departmental assessment, and student research clubs.
+{% for role in site.data.admin.past_roles %}
+**{{ role.title }}** — {{ role.organization }} ({{ role.period }})
+{% for item in role.responsibilities %}
+- {{ item }}
+{% endfor %}
+
+{% endfor %}
+
+## Leadership & Institutional Service
+
+{% for item in site.data.admin.leadership_roles %}
+**{{ item.role }}**{% if item.period %} ({{ item.period }}){% endif %}  
+{{ item.description }}
+
+{% endfor %}
 
 ## Academic Service
 
-**Peer Reviewer** for IEEE Access, Cluster Computing, Internet of Things (Elsevier), Multimedia Tools and Applications, Egyptian Informatics Journal.
+{% for service in site.data.admin.academic_service %}
+**{{ service.role }}**{% if service.period %} ({{ service.period }}){% endif %}
+{% if service.venues %}
+{% for venue in service.venues %}
+- {{ venue }}
+{% endfor %}
+{% elsif service.description %}
+{{ service.description }}
+{% endif %}
 
-**Session Chair / TPC** for IEEE INDICON, IEEE ANTS, ACM CoDS-COMAD, and International Conference on Big Data Analytics.
-
-**External Examiner** for M.Tech and B.Tech theses at affiliated universities.
+{% endfor %}
