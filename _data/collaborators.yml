@@ -160,10 +160,10 @@
     - "Ensemble Learning"
   notable_work: "Metaheuristic feature selection with ensemble representation learning for cyberattack detection"
 
-- name: "Dr. Anjani Samhitha Jasti"
+- name: "Anjani Samhitha Jasti"
   slug: anjani-samhitha-jasti
   image: collaborators/anjani-samhitha-jasti.svg
-  affiliation: "SRM Institute of Science and Technology"
+  affiliation: "VIT Vellore"
   country: "India"
   joint_papers: 1
   research_areas:
