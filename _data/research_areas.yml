@@ -1,93 +1,134 @@
-# Research areas and expertise
+# Broad research areas derived from the publication portfolio
 
-primary_areas:
-  - name: "Online Machine Learning"
-    icon: "fas fa-brain"
+areas:
+  - name: "IoT Intrusion Detection & Network Security"
     description: >-
-      Developing adaptive learning algorithms that evolve with streaming IoT data.
-      Focus on ensemble methods, incremental learning, and real-time model updates
-      without catastrophic forgetting.
+      Designing machine-learning defences for IoT and edge networks — from lightweight
+      tree-based classifiers and ensemble stacking to real-time analytics pipelines,
+      botnet detection, and privacy-aware attack classification on evolving traffic.
     keywords:
-      - "Online Ensembles"
-      - "Incremental Learning"
-      - "Streaming Data"
-      - "Adaptive Models"
-    representative_papers:
-      - "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
-      - "Tachyon: Enhancing stacked models using Bayesian optimization for intrusion detection"
-
-  - name: "Concept Drift Detection"
-    icon: "fas fa-chart-line"
-    description: >-
-      Detecting and adapting to changes in data distributions over time — a critical
-      challenge in IoT environments where attack patterns and network behavior evolve
-      continuously.
-    keywords:
-      - "Drift Detection"
-      - "Distribution Shift"
-      - "Adaptive Ensembles"
-      - "Evolving Data Streams"
-    representative_papers:
-      - "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
-      - "Aura: Adaptive unified real-time analytics for IoT intrusion detection"
-
-  - name: "Deep Learning for Security"
-    icon: "fas fa-shield-alt"
-    description: >-
-      Applying deep neural networks — including Bi-LSTMs, CNNs, and tree-based
-      convolutional networks — for anomaly detection, intrusion detection, and
-      cyberattack classification in IoT networks.
-    keywords:
-      - "Bi-LSTM"
-      - "Tree-based CNNs"
-      - "Anomaly Detection"
       - "Intrusion Detection"
+      - "Network Security"
+      - "Botnet Detection"
+      - "Privacy-Preserving ML"
+    representative_papers:
+      - "LIRAD: Lightweight tree-based approaches on resource constrained IoT devices"
+      - "Tachyon: Enhancing stacked models using Bayesian optimization for intrusion detection"
+      - "AURA: Adaptive unified real-time analytics for IoT intrusion detection"
+      - "CITADLE: Cyber intrusion tracking and defense layered environment"
+
+  - name: "Online Machine Learning & Concept Drift"
+    description: >-
+      Building adaptive models that learn from streaming data and respond when attack
+      patterns or sensor behaviour shift over time — including online ensembles,
+      drift-aware updating, and sequential anomaly detection with feedback.
+    keywords:
+      - "Concept Drift"
+      - "Online Ensembles"
+      - "Streaming ML"
+      - "Adaptive Learning"
+    representative_papers:
+      - "OASIS: Online adaptive ensembles for drift adaptation on evolving IoT data streams"
+      - "Sequential anomaly detection using feedback and prioritized experience replay"
+      - "Knox: Lightweight machine learning approaches for automated detection of botnet attacks"
+
+  - name: "Streaming Analytics & Complex Event Processing"
+    description: >-
+      Architectures for ingesting, processing, and reasoning over high-velocity IoT
+      data streams using complex event processing engines, Kafka/Flink pipelines,
+      and lightweight ML at the edge for timely threat and event detection.
+    keywords:
+      - "Complex Event Processing"
+      - "Stream Processing"
+      - "Real-Time Analytics"
+      - "Apache Kafka / Flink"
+    representative_papers:
+      - "An ingestion based analytics framework for complex event processing engine in IoT"
+      - "HeuristiX: Adaptive event processing using lightweight ML on edge devices"
+      - "Streamlined data pipeline for real-time threat detection and model inference"
+      - "Analyzing events using IoT data streams in a smart city scenario"
+
+  - name: "Smart Cities & Intelligent Transportation"
+    description: >-
+      Predictive analytics on urban IoT data streams for traffic forecasting, congestion
+      modelling, and intelligent transportation — combining probabilistic models,
+      evolutionary learning, and large-scale REST/streaming frameworks.
+    keywords:
+      - "Smart Cities"
+      - "Traffic Prediction"
+      - "VANETs"
+      - "Urban IoT"
+    representative_papers:
+      - "Real-time probabilistic approach for traffic prediction on IoT data streams"
+      - "An evolutionary approach for congestion prediction on IoT data streams in smart city environment"
+      - "A REST framework on IoT streams using Apache Spark for smart cities"
+      - "A systematic review of VANET routing protocols for intelligent transport systems"
+
+  - name: "Lightweight & Edge Machine Learning"
+    description: >-
+      Deploying accurate yet resource-efficient models on constrained devices —
+      pruned tree ensembles, compact CNNs, Raspberry Pi clusters, and embedded
+      hardware such as Jetson Nano for real-time inference at the edge.
+    keywords:
+      - "Edge Computing"
+      - "Lightweight ML"
+      - "Embedded AI"
+      - "Resource-Constrained Devices"
+    representative_papers:
+      - "LIRAD: Lightweight tree-based approaches on resource constrained IoT devices"
+      - "Optimized tree-based ensembles for intrusion detection in internet of things"
+      - "SpectralRepNet: Real-time image dehazing for edge surveillance"
+      - "CITADLE: Cyber intrusion tracking and defense layered environment"
+
+  - name: "Deep Learning & Computer Vision"
+    description: >-
+      Neural architectures for time-series anomaly detection, network intrusion
+      classification, agricultural disease recognition, and surveillance under
+      adverse conditions — spanning Bi-LSTMs, tree-based CNNs, and spectral
+      reparameterization networks.
+    keywords:
+      - "Deep Learning"
+      - "Computer Vision"
+      - "Bi-LSTM"
+      - "Image Dehazing"
     representative_papers:
       - "Attention-based bi-LSTM for anomaly detection on time-series data"
       - "Robust detection of network intrusion using tree-based convolutional neural networks"
-
-  - name: "Internet of Things (IoT) Security"
-    icon: "fas fa-network-wired"
-    description: >-
-      End-to-end security for IoT ecosystems — from lightweight attack detection on
-      resource-constrained edge devices to scalable analytics pipelines using Apache Spark
-      and complex event processing engines.
-    keywords:
-      - "IoT Intrusion Detection"
-      - "Edge Computing"
-      - "Complex Event Processing"
-      - "Smart Cities"
-    representative_papers:
-      - "LIRAD: Lightweight tree-based approaches on resource constrained IoT devices"
-      - "An ingestion based analytics framework for complex event processing in IoT"
-      - "A REST framework on IoT streams using Apache Spark for smart cities"
-
-secondary_areas:
-  - name: "Lightweight & Edge ML"
-    description: "Deploying efficient tree-based and ensemble models on resource-constrained IoT devices."
-    papers:
-      - "LIRAD"
-      - "Knox: Lightweight ML for botnet detection"
-
-  - name: "Healthcare IoT"
-    description: "AI-powered health monitoring including diabetes early detection and fall detection for dementia patients."
-    papers:
-      - "IoT-enabled early detection of diabetes using deep learning"
-      - "CURA: Real-time fall detection for dementia patients"
+      - "Demeter: Enhancing paddy disease detection using deep ensembles and few-shot learning"
+      - "SpectralRepNet: Real-time image dehazing for edge surveillance"
 
   - name: "Mobile Crowdsensing & Mechanism Design"
-    description: "Auction mechanisms and truthful bidding for IoT-based crowdsensing platforms."
-    papers:
-      - "A truthful mechanism for time-bound tasks in IoT crowdsourcing"
-      - "Quality aware multi-unit double auction framework"
+    description: >-
+      Incentive-compatible auctions and truthful mechanisms for IoT-based mobile
+      crowdsensing — balancing data quality, budget constraints, and strategic
+      behaviour among participants in participatory sensing platforms.
+    keywords:
+      - "Crowdsensing"
+      - "Auction Theory"
+      - "Mechanism Design"
+      - "Quality-Aware Sensing"
+    representative_papers:
+      - "A truthful mechanism for time-bound tasks in IoT-based crowdsourcing with zero budget"
+      - "A quality aware multi-unit double auction framework for IoT-based mobile crowdsensing"
 
-  - name: "Community Detection in IoT Networks"
-    description: "Graph-based and evolutionary approaches for identifying communities in IoT network topologies."
-    papers:
-      - "An evolutionary GA-based approach for community detection in IoT"
+  - name: "Healthcare & Environmental IoT"
+    description: >-
+      AI-enabled monitoring for health and environmental sensing — including fall
+      detection for dementia care, diabetes screening from wearable data, and
+      automated water-quality assessment in smart-city and agricultural settings.
+    keywords:
+      - "Healthcare IoT"
+      - "Fall Detection"
+      - "Water Quality"
+      - "Precision Agriculture"
+    representative_papers:
+      - "CURA: Real time AI and IoT based fall detection systems for dementia patients"
+      - "IoT-enabled early detection of diabetes diseases using deep learning"
+      - "Automated detection of water quality in smart cities using various sampling techniques"
+      - "Demeter: Enhancing paddy disease detection using deep ensembles and few-shot learning"
 
 research_stats:
   total_publications: 35
-  total_citations: 182
+  total_citations: 180
   h_index: 8
   active_since: 2017

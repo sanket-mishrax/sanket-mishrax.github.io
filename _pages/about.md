@@ -20,4 +20,4 @@ Previously an Assistant Professor at VIT Vellore (2020–2025), I earned my Ph.D
 
 I work on identifying key challenges in IoT ecosystems and solving them with frameworks that are adaptive, lightweight, and scalable. I am open to research collaborations, Ph.D./M.Tech supervision, and invited talks.
 
-**Research areas:** Online machine learning · Concept drift · Deep learning · IoT intrusion detection · Lightweight edge ML
+**Research areas:** IoT intrusion detection · Online ML & concept drift · Streaming analytics & CEP · Smart cities & ITS · Lightweight edge ML · Deep learning & vision · Mobile crowdsensing · Healthcare & environmental IoT
