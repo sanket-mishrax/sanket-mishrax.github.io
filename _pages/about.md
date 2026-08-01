@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Dr. · Associate Professor | MIT Bengaluru, MAHE · Machine Learning & IoT Security
+subtitle: TCS PhD Research Fellow 2016–2020 · Associate Professor | MIT Bengaluru, MAHE · Machine Learning & IoT Security
 
 profile:
   align: right
