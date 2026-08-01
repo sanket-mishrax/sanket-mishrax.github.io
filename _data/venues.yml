@@ -1,0 +1,23 @@
+IoT:
+  color: "#1a73e8"
+  url: https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en
+
+ML:
+  color: "#137333"
+  url: https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en
+
+IEEE:
+  color: "#b06000"
+  url: https://ieeexplore.ieee.org
+
+ACM:
+  color: "#7627bb"
+  url: https://dl.acm.org
+
+Springer:
+  color: "#0d2137"
+  url: https://link.springer.com
+
+Elsevier:
+  color: "#c62828"
+  url: https://www.sciencedirect.com

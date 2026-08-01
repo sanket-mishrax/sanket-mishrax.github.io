@@ -1,11 +1,33 @@
 ---
+layout: page
 permalink: /experience/
-title: "Experience"
-header:
-  overlay_color: "#0d2137"
-  overlay_filter: "0.5"
+title: experience
+description: Academic positions, research roles, and education.
+nav: true
+nav_order: 5
 ---
 
-My academic career spanning faculty positions, doctoral research, and postgraduate education.
+## Current Position
 
-{% include experience-timeline.html %}
+**Associate Professor** — Manipal Institute of Technology Bengaluru, MAHE
+*Bengaluru, India · Feb 2025 – Present*
+
+Leading research in online machine learning, concept drift adaptation, and IoT intrusion detection. Teaching graduate-level courses and mentoring M.Tech and Ph.D. scholars.
+
+## Past Experience
+
+**Assistant Professor** — VIT Vellore Institute of Technology
+*Amaravati, India · Sep 2020 – Feb 2025*
+
+Faculty in the Department of CSE. Published 20+ papers, supervised thesis projects, and developed research frameworks including Tachyon, LIRAD, OASIS, and Aura.
+
+**Ph.D. Research Scholar** — BITS Pilani, Hyderabad Campus
+*Hyderabad, India · 2015 – 2020*
+
+Doctoral research on IoT security, complex event processing, and ML for intrusion detection under Dr. Chinmay Hota.
+
+## Education
+
+- **Ph.D.** in Computer Science — BITS Pilani, Hyderabad (2020)
+- **M.E.** in Computer Science — Utkal University (2014)
+- **B.Tech** in Computer Science & Engineering

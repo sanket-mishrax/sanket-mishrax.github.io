@@ -1,13 +1,12 @@
 ---
+layout: page
 permalink: /publications/
-title: "Publications"
-header:
-  overlay_color: "#0d2137"
-  overlay_filter: "0.5"
+title: publications
+description: Peer-reviewed publications with summaries. Click <strong>Abs</strong> on any entry to read the summary.
+nav: true
+nav_order: 2
 ---
 
-Publications listed below are sourced from my [Google Scholar profile]({{ site.scholar.profile_url }}). Each entry includes a brief summary of the contribution. They are sorted by year (most recent first).
+Publications are listed below in reverse chronological order. Each entry includes an **abstract summary** — click the **Abs** button to expand it. Metrics are also available via [Google Scholar](https://scholar.google.com/citations?user=LkngaM4AAAAJ&hl=en).
 
-To add a new publication, edit `_data/publications.yml` — a template entry is included at the bottom of the file.
-
-{% include publication-list.html %}
+{% bibliography %}
