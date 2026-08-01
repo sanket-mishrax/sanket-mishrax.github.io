@@ -21,7 +21,6 @@
       ".post article > h3",
       ".pub-section-heading",
       ".publications ol.bibliography > li",
-      ".collaborator-card",
       ".research-impact-metrics",
       ".research-impact-metric",
       ".teaching-materials-gate",
@@ -38,10 +37,6 @@
 
     document.querySelectorAll(".publications ol.bibliography > li").forEach((element, index) => {
       element.style.setProperty("--reveal-delay", `${Math.min(index * 40, 400)}ms`);
-    });
-
-    document.querySelectorAll(".collaborator-card").forEach((element, index) => {
-      element.style.setProperty("--reveal-delay", `${Math.min(index * 50, 450)}ms`);
     });
 
     document.querySelectorAll(".research-impact-metric").forEach((element, index) => {

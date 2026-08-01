@@ -6,7 +6,7 @@ Academic portfolio website for **Dr. Sanket Mishra**, Associate Professor at MIT
 
 ## About
 
-Research focus: online machine learning, concept drift detection, deep learning, and IoT security. The site publishes publications, teaching, experience, collaborations, and academic service in a static, GitHub Pages–hosted format.
+Research focus: online machine learning, concept drift detection, deep learning, and IoT security. The site publishes publications, teaching, experience, and academic service in a static, GitHub Pages–hosted format.
 
 | | |
 |---|---|
@@ -24,7 +24,6 @@ Research focus: online machine learning, concept drift detection, deep learning,
 | **Research** | `/research/` | Research areas, impact metrics, and additional interests |
 | **Teaching** | `/teaching/` | B.Tech courses taught (MIT Bengaluru & VIT-AP) and gated course materials |
 | **Experience** | `/experience/` | Academic positions and education |
-| **Collaborations** | `/collaborations/` | Co-author cards with affiliations and joint-paper counts |
 | **Administration** | `/administration/` | Current/past roles, leadership service, peer review, and TPC |
 
 ## Repository structure
@@ -38,12 +37,10 @@ sanket-mishrax.github.io/
 │   ├── research.md             #   Research areas & scholar metrics
 │   ├── teaching.md             #   Courses + teaching-materials include
 │   ├── experience.md           #   Positions & education
-│   ├── collaborations.md       #   Collaborator grid include
 │   └── administration.md       #   Renders roles from _data/admin.yml
 │
 ├── _data/                      # Structured content (YAML)
 │   ├── admin.yml               #   Administration roles & academic service
-│   ├── collaborators.yml       #   Co-author names, affiliations, research areas
 │   ├── subjects.yml            #   Courses taught (MIT & VIT-AP, B.Tech)
 │   ├── teaching_materials.yml  #   Gated course files (title, course, url)
 │   ├── experience.yml          #   Detailed experience data (reference)
@@ -61,7 +58,6 @@ sanket-mishrax.github.io/
 │   └── page.liquid             #   Standard content pages
 │
 ├── _includes/                  # Reusable components
-│   ├── collaborators-grid.liquid   # Collaborator card grid
 │   ├── teaching-materials.liquid   # Email-gated materials UI
 │   ├── selected_papers.liquid      # Homepage publication highlights
 │   ├── head.liquid                 # HTML head (CSS cache busting)
@@ -74,7 +70,6 @@ sanket-mishrax.github.io/
 ├── assets/
 │   ├── img/
 │   │   ├── bio-photo.png       #   Profile photo (homepage)
-│   │   └── collaborators/      #   Co-author placeholder SVGs
 │   ├── css/main.scss           #   Site styles (compiled to main.css)
 │   ├── js/
 │   │   ├── common.js           #   Abs/Bib toggle handlers
@@ -118,10 +113,6 @@ Journal entries show indexing / quartile / IF in the right column; conference en
 | `_config.yml` → `teaching_materials.allowed_email_domains` | Email domains allowed to view materials (default: `manipal.edu`) |
 
 Course materials are hidden until a visitor verifies a `@manipal.edu` email address (see `_includes/teaching-materials.liquid`).
-
-### Collaborations (`_data/collaborators.yml`)
-
-Each entry: `name`, `slug`, `image`, `affiliation`, `country`, `joint_papers`, `research_areas`, `notable_work`. Replace `assets/img/collaborators/<slug>.svg` with a photo when available.
 
 ### Administration (`_data/admin.yml`)
 

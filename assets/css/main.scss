@@ -289,65 +289,6 @@ h6 {
   color: var(--global-text-color-light);
 }
 
-// Collaborations page: photo cards with name and institute
-.collaborators-grid {
-  margin-top: 1.5rem;
-}
-
-.collaborator-card {
-  border: 1px solid var(--global-divider-color);
-  transition: box-shadow 0.2s ease;
-}
-
-.collaborator-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-}
-
-.collaborator-photo {
-  overflow: hidden;
-  background: var(--global-bg-color);
-}
-
-.collaborator-photo figure,
-.collaborator-photo picture {
-  margin: 0;
-}
-
-.collaborator-img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  display: block;
-}
-
-.collaborator-name {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.35rem;
-}
-
-.collaborator-institute {
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--global-theme-color);
-  margin-bottom: 0.25rem;
-}
-
-.collaborator-country {
-  font-size: 0.85rem;
-  margin-bottom: 0.5rem;
-}
-
-.collaborator-meta {
-  margin-bottom: 0.5rem;
-}
-
-.collaborator-areas .badge {
-  margin: 0.15rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
-
 // Teaching page: Manipal-gated course materials
 .teaching-materials-gate {
   max-width: 36rem;
@@ -505,27 +446,6 @@ html {
   &:hover {
     transform: translateY(-2px) scale(1.03);
   }
-}
-
-.collaborator-card {
-  transition:
-    box-shadow 0.25s ease,
-    transform 0.25s ease,
-    border-color 0.25s ease;
-}
-
-.collaborator-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  border-color: var(--global-theme-color);
-}
-
-.collaborator-card .collaborator-img {
-  transition: transform 0.35s ease;
-}
-
-.collaborator-card:hover .collaborator-img {
-  transform: scale(1.04);
 }
 
 .research-impact-metrics {
