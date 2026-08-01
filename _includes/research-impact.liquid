@@ -7,19 +7,19 @@
     </div>
     <div class="research-impact-metric" role="row">
       <span class="metric-label" role="cell">Publications</span>
-      <span class="metric-value" role="cell">{{ stats.total_publications }}+</span>
+      <span class="metric-value" role="cell" data-count="{{ stats.total_publications }}" data-suffix="+">0+</span>
     </div>
     <div class="research-impact-metric" role="row">
       <span class="metric-label" role="cell">Citations</span>
-      <span class="metric-value" role="cell">{{ stats.total_citations }}+</span>
+      <span class="metric-value" role="cell" data-count="{{ stats.total_citations }}" data-suffix="+">0+</span>
     </div>
     <div class="research-impact-metric" role="row">
       <span class="metric-label" role="cell">h-index</span>
-      <span class="metric-value" role="cell">{{ stats.h_index }}</span>
+      <span class="metric-value" role="cell" data-count="{{ stats.h_index }}">0</span>
     </div>
     <div class="research-impact-metric" role="row">
       <span class="metric-label" role="cell">i10-index</span>
-      <span class="metric-value" role="cell">{{ stats.i10_index }}</span>
+      <span class="metric-value" role="cell" data-count="{{ stats.i10_index }}">0</span>
     </div>
     <div class="research-impact-metric" role="row">
       <span class="metric-label" role="cell">Active since</span>

@@ -397,3 +397,191 @@ h6 {
 body.fixed-top-nav {
   padding-bottom: 3rem;
 }
+
+// ---------------------------------------------------------------------------
+// Interactivity & animations
+// ---------------------------------------------------------------------------
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+#navbar {
+  transition:
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    background-color 0.25s ease;
+}
+
+#navbar.navbar-scrolled {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+#navbar .nav-link {
+  position: relative;
+  transition: color 0.2s ease;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0.65rem;
+    right: 0.65rem;
+    bottom: 0.2rem;
+    height: 2px;
+    background: var(--global-theme-color);
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.25s ease;
+  }
+
+  &:hover::after,
+  &.active::after {
+    transform: scaleX(1);
+  }
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.55s ease,
+    transform 0.55s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.post-header.reveal-on-scroll {
+  transform: translateY(12px);
+}
+
+.profile img.reveal-on-scroll {
+  transform: scale(0.96);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.profile img.reveal-on-scroll.is-visible {
+  transform: scale(1);
+}
+
+.publications ol.bibliography > li.reveal-on-scroll {
+  transform: translateX(-10px);
+}
+
+.publications ol.bibliography > li.reveal-on-scroll.is-visible {
+  transform: translateX(0);
+}
+
+.publications ol.bibliography li {
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--global-code-bg-color);
+    border-radius: 6px;
+  }
+}
+
+.publications ol.bibliography li .abbr .venue-logo-link {
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px) scale(1.03);
+  }
+}
+
+.collaborator-card {
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.collaborator-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--global-theme-color);
+}
+
+.collaborator-card .collaborator-img {
+  transition: transform 0.35s ease;
+}
+
+.collaborator-card:hover .collaborator-img {
+  transform: scale(1.04);
+}
+
+.research-impact-metrics {
+  transition: box-shadow 0.25s ease;
+}
+
+.research-impact-metrics.is-visible {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.research-impact-metric .metric-value {
+  transition: color 0.3s ease;
+}
+
+.research-impact-metrics.is-visible .metric-value {
+  color: var(--global-theme-color);
+}
+
+.social .contact-icons a {
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px) scale(1.08);
+  }
+}
+
+.publications ol.bibliography li .hidden {
+  transition:
+    max-height 0.35s ease,
+    opacity 0.25s ease,
+    border-color 0.25s ease;
+  opacity: 0;
+}
+
+.publications ol.bibliography li .hidden.open {
+  opacity: 1;
+}
+
+a.btn,
+.publications ol.bibliography li a.btn {
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.pub-section-heading.reveal-on-scroll.is-visible {
+  border-bottom-color: var(--global-theme-color);
+  transition:
+    opacity 0.55s ease,
+    transform 0.55s ease,
+    border-color 0.6s ease 0.15s;
+}
+
