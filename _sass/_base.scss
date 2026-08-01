@@ -727,13 +727,14 @@ footer.sticky-bottom {
         font-weight: bolder;
 
         a {
-          color: inherit;
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-theme-color);
+          text-decoration: underline;
+          text-decoration-color: rgba(0, 0, 0, 0.2);
+          text-underline-offset: 2px;
 
           &:hover {
-            color: var(--global-theme-color);
-            border-bottom-style: solid;
-            text-decoration: none;
+            color: var(--global-hover-color);
+            text-decoration-color: currentColor;
           }
         }
       }
