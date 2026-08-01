@@ -148,6 +148,25 @@ $max-content-width: {{ site.max_width }};
   font-weight: 500;
 }
 
+// Publication bibliometrics (indexing, quartile, IF, CORE)
+.bib-metrics {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
+.bib-metrics .bib-metric {
+  display: inline-block;
+  margin-right: 0.85rem;
+  margin-bottom: 0.15rem;
+}
+
+.bib-metrics .bib-metric strong {
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
 // Mobile: keep dropdown menus visible inside collapsed navbar
 @media (max-width: 767px) {
   .navbar-nav .dropdown-menu {

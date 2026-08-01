@@ -180,6 +180,28 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if entry.indexing or entry.quartile or entry.impact_factor or entry.core_ranking %}
+      <div class="bib-metrics">
+        {% if entry.indexing %}
+          <span class="bib-metric"><strong>Indexing:</strong> {{ entry.indexing }}</span>
+        {% endif %}
+        {% if entry.quartile %}
+          <span class="bib-metric"><strong>Quartile:</strong> {{ entry.quartile }}</span>
+        {% endif %}
+        {% if entry.impact_factor %}
+          <span class="bib-metric">
+            <strong>Impact Factor:</strong> {{ entry.impact_factor -}}
+            {%- if entry.impact_factor_year %} ({{ entry.impact_factor_year }}){% endif %}
+          </span>
+        {% endif %}
+        {% if entry.core_ranking %}
+          <span class="bib-metric">
+            <strong>CORE{% if entry.core_edition %} ({{ entry.core_edition }}){% endif %}:</strong> {{ entry.core_ranking }}
+          </span>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
