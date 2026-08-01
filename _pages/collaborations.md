@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /collaborations/
-title: collaborations
+title: Collaborations
 description: Research co-authors and international collaboration network.
 nav: true
 nav_order: 6

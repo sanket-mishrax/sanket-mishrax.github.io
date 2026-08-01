@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: research
+title: Research
 description: Research areas and impact in online ML, drift detection, deep learning, and IoT security.
 nav: true
 nav_order: 3

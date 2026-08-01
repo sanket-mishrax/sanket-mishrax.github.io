@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /administration/
-title: administration
+title: Administration
 description: Administrative roles and academic service.
 nav: true
 nav_order: 7

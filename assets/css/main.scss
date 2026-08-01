@@ -6,6 +6,9 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+// Site typography
+$site-font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
 @import
   "variables",
   "themes",
@@ -25,6 +28,18 @@ $max-content-width: {{ site.max_width }};
 // ---------------------------------------------------------------------------
 // Custom alignment fixes
 // ---------------------------------------------------------------------------
+
+body,
+.navbar,
+.post-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $site-font-family;
+}
 
 // Navbar: prevent cramped wrapping with many links
 #navbar .navbar-nav {

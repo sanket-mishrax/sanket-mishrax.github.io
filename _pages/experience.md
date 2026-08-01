@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /experience/
-title: experience
+title: Experience
 description: Academic positions, research roles, and education.
 nav: true
 nav_order: 5

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Dr. · Associate Professor | MIT Bengaluru, MAHE · Machine Learning & IoT Security
 
