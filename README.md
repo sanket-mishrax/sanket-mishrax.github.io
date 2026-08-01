@@ -20,7 +20,7 @@ Research focus: online machine learning, concept drift detection, deep learning,
 | Page | URL | Description |
 |------|-----|-------------|
 | **About** | `/` | Bio, profile photo, selected publications, social links |
-| **Publications** | `/publications/` | BibTeX-driven bibliography with abstracts, DOI links, and venue metrics |
+| **Publications** | `/publications/` | BibTeX bibliography grouped into journal articles, conference papers, and book chapters |
 | **Research** | `/research/` | Research areas, impact metrics, and additional interests |
 | **Teaching** | `/teaching/` | B.Tech courses taught (MIT Bengaluru & VIT-AP) and gated course materials |
 | **Experience** | `/experience/` | Academic positions and education |
