@@ -2,10 +2,11 @@
 
 ## Step 1 — Set Pages source
 
-1. Open **https://github.com/sanket-mishrax/sanket-mishrax.github.io/settings/pages**
-2. Source: **Deploy from a branch**
-3. Branch: **`gh-pages`** / **`/ (root)`**
-4. Save
+1. Open the repository: **https://github.com/sanket-mishrax/sanket-mishrax.github.io**
+2. Go to **Settings → Pages**
+3. Source: **Deploy from a branch**
+4. Branch: **`gh-pages`** / **`/ (root)`**
+5. Save
 
 ## Step 2 — Wait
 
