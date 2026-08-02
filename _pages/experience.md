@@ -16,8 +16,8 @@ Leading research in online machine learning, concept drift adaptation, and IoT i
 
 ## Past Experience
 
-**Assistant Professor** — VIT Vellore Institute of Technology
-*Amaravati, India · Sep 2020 – Feb 2025*
+**Assistant Professor** — VIT-AP University
+*Amaravati, Andhra Pradesh, India · Sep 2020 – Feb 2025*
 
 Faculty in the Department of CSE. Published 20+ papers, supervised thesis projects, and developed research frameworks including Tachyon, LIRAD, OASIS, and Aura.
 
