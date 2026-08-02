@@ -12,13 +12,13 @@
     Teaching B.Tech courses in computer science and engineering.
   logo: "manipal"
 
-- name: "VIT Vellore Institute of Technology"
+- name: "VIT-AP University"
   parent: "VIT University"
-  location: "Amaravati / Vellore, India"
+  location: "Amaravati, Andhra Pradesh, India"
   role: "Assistant Professor, Department of Computer Science & Engineering"
   period: "Sep 2020 – Feb 2025"
   current: false
-  website: "https://vit.ac.in"
+  website: "https://vitap.ac.in"
   description: >-
     Conducted research on IoT intrusion detection, online machine learning, and adaptive
     frameworks. Supervised undergraduate and postgraduate thesis projects. Published
